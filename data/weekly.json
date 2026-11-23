@@ -12,6 +12,36 @@
       "author": "Ricardo Reis (Fernando Pessoa)",
       "source": "Odes, 1933",
       "text": "Para ser grande, sê inteiro: nada\nTeu exagera ou exclui.\nSê todo em cada coisa. Põe quanto és\nNo mínimo que fazes.\nAssim em cada lago a lua toda\nBrilha, porque alta vive."
+    },
+    {
+      "title": "Amor é um fogo que arde sem se ver",
+      "author": "Luís de Camões",
+      "source": "Rimas, 1598 (texto de Costa Pimpão)",
+      "text": "Amor é um fogo que arde sem se ver,\né ferida que dói, e não se sente;\né um contentamento descontente,\né dor que desatina sem doer.\n\nÉ um não querer mais que bem querer;\né um andar solitário entre a gente;\né nunca contentar-se de contente;\né um cuidar que ganha em se perder.\n\nÉ querer estar preso por vontade;\né servir a quem vence, o vencedor;\né ter com quem nos mata, lealdade.\n\nMas como causar pode seu favor\nnos corações humanos amizade,\nse tão contrário a si é o mesmo amor?"
+    },
+    {
+      "title": "\"Hope\" is the thing with feathers",
+      "author": "Emily Dickinson",
+      "source": "Poems, 1891",
+      "text": "\"Hope\" is the thing with feathers\nThat perches in the soul\nAnd sings the tune without the words\nAnd never stops at all,\n\nAnd sweetest in the gale is heard;\nAnd sore must be the storm\nThat could abash the little bird\nThat kept so many warm.\n\nI've heard it in the chillest land\nAnd on the strangest sea,\nYet never, in extremity,\nIt asked a crumb of me."
+    },
+    {
+      "title": "Na mão de Deus",
+      "author": "Antero de Quental",
+      "source": "Os Sonetos Completos, 1886",
+      "text": "Na mão de Deus, na sua mão direita,\nDescançou a final meu coração.\nDo palacio encantado da Illusão\nDesci a passo e passo a escada estreita.\n\nComo as flores mortaes, com que se enfeita\nA ignorancia infantil, despojo vão,\nDepuz do Ideal e da Paixão\nA forma transitoria e imperfeita.\n\nComo criança, em lobrega jornada,\nQue a mãe leva ao collo agasalhada\nE atravessa, sorrindo vagamente,\n\nSelvas, mares, areias do deserto…\nDorme o teu somno, coração liberto,\nDorme na mão de Deus eternamente!"
+    },
+    {
+      "title": "Inscripção",
+      "author": "Camilo Pessanha",
+      "source": "Clepsydra, 1920",
+      "text": "Eu vi a luz em um paiz perdido.\nA minha alma é languida e inerme.\nOh! Quem podesse deslisar sem ruido!\nNo chão sumir-se, como faz um verme…"
+    },
+    {
+      "title": "Fim",
+      "author": "Mário de Sá-Carneiro",
+      "source": "escrito em 1916; Indícios de Oiro, 1937",
+      "text": "Quando eu morrer batam em latas,\nRompam aos saltos e aos pinotes —\nFaçam estalar no ar chicotes,\nChamem palhaços e acrobatas.\n\nQue o meu caixão vá sobre um burro\nAjaezado à andaluza:\nA um morto nada se recusa,\nEu quero por força ir de burro..."
     }
   ],
   "obras": [
@@ -28,6 +58,111 @@
         "Porque te pode interessar: os médicos do livro falam de órgãos e diagnósticos e nunca do doente. É leitura frequente em cursos de humanidades médicas — e o único que trata Ivan com verdade é o criado, Guerássim."
       ],
       "link": null
+    },
+    {
+      "id": "o-licao-anatomia",
+      "kind": "Pintura",
+      "title": "A Lição de Anatomia do Dr. Nicolaes Tulp",
+      "author": "Rembrandt",
+      "year": "1632",
+      "teaser": "Sete homens de Amesterdão inclinam-se sobre um cadáver enquanto o Dr. Tulp lhes mostra, com uma pinça, os músculos do antebraço. Rembrandt ainda não tinha 30 anos quando o pintou.",
+      "context": [
+        "Em janeiro de 1632, Nicolaes Tulp, praelector da Guilda dos Cirurgiões de Amesterdão, deu uma lição pública de anatomia. Os membros da guilda que aparecem no quadro pagaram para lá ficar; Tulp é o único de chapéu. O cadáver é Aris Kindt, um ladrão enforcado nesse inverno.",
+        "Óleo sobre tela (169,5 × 216,5 cm), hoje no Mauritshuis, na Haia. Tulp começou a dissecção pelo braço e pela mão, ao contrário do costume — talvez a imitar Vesálio. As radiografias mostram que Rembrandt pintou primeiro um coto e só depois acrescentou a mão.",
+        "Porque te pode interessar: é um exame de anatomia em forma de quadro. Tenta identificar os flexores do antebraço que Tulp levanta — há anatomistas que discutem até hoje se Rembrandt acertou (um estudo de 2007 sugere que a estrutura branca é uma variante de tendão)."
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Rembrandt_-_The_Anatomy_Lesson_of_Dr_Nicolaes_Tulp.jpg/1200px-Rembrandt_-_The_Anatomy_Lesson_of_Dr_Nicolaes_Tulp.jpg",
+      "link": {
+        "label": "Ver no Mauritshuis",
+        "url": "https://mauritshuis.nl/en/our-collection/artworks/146-the-anatomy-lesson-of-dr-nicolaes-tulp"
+      }
+    },
+    {
+      "id": "o-john-snow",
+      "kind": "História",
+      "title": "O mapa de John Snow e a bomba de Broad Street",
+      "author": "Londres, 1854",
+      "year": "1854",
+      "teaser": "Em poucos dias, centenas de pessoas morreram de cólera num só bairro de Londres. Um médico pôs as mortes num mapa, mandou tirar a manivela a uma bomba de água — e ajudou a fundar a epidemiologia.",
+      "context": [
+        "O surto começou a 31 de agosto de 1854, no Soho. John Snow marcou cada morte num mapa e viu que se concentravam à volta da bomba pública de Broad Street. A 7 de setembro apresentou as provas à junta da paróquia; no dia seguinte a manivela foi retirada. No fim, tinham morrido 616 pessoas.",
+        "Na época dominava a teoria dos miasmas: a cólera viria do «ar mau». O vibrião só foi isolado em 1883, e Snow morreu em 1858 sem ver a teoria dos germes aceite. Mais tarde, o pároco Henry Whitehead encontrou o caso inicial: as fraldas de um bebé lavadas numa fossa ao lado do poço.",
+        "Porque te pode interessar: é o caso clássico da saúde pública — dados, um mapa e uma hipótese testável contra a teoria dominante. Vais voltar a encontrá-lo em epidemiologia."
+      ],
+      "image": null,
+      "link": {
+        "label": "Ler no London Museum",
+        "url": "https://www.londonmuseum.org.uk/collections/london-stories/john-snow-cholera-broad-street-pump/"
+      }
+    },
+    {
+      "id": "o-sacks-chapeu",
+      "kind": "Livro",
+      "title": "O Homem Que Confundiu a Mulher com um Chapéu",
+      "author": "Oliver Sacks",
+      "year": "1985",
+      "teaser": "Um professor de música olha para a mulher e tenta pegar-lhe na cabeça como se fosse o chapéu. Um neurologista conta casos de cérebros que falham de formas estranhas — e o que revelam sobre todos nós.",
+      "context": [
+        "São 24 histórias clínicas, em quatro partes, sobre doentes com perturbações neurológicas: agnosias, perdas de memória, síndromes raras. O caso do título é o Dr. P., um músico com agnosia visual, que reconhece formas mas não rostos nem objetos.",
+        "Oliver Sacks era um neurologista britânico que escrevia os seus casos como contos. Em Portugal está publicado pela Relógio D'Água; o livro deu origem a uma ópera de câmara de Michael Nyman (1986).",
+        "Porque te pode interessar: é a ponte perfeita entre a neuroanatomia que vais estudar e a pessoa por trás de cada lesão — e lê-se um capítulo de cada vez."
+      ],
+      "image": null,
+      "link": {
+        "label": "Sobre o livro",
+        "url": "https://oliversacks.com/oliver-sacks-books/the-man-who-mistook-his-wife-for-a-hat"
+      }
+    },
+    {
+      "id": "o-fildes-doctor",
+      "kind": "Pintura",
+      "title": "O Médico (The Doctor)",
+      "author": "Luke Fildes",
+      "year": "1891",
+      "teaser": "Uma criança doente numa casa humilde, os pais na penumbra e um médico que não tem nenhum remédio para dar — só a sua atenção. A luz da madrugada na janela sugere que a criança vai sobreviver.",
+      "context": [
+        "Henry Tate encomendou o quadro em 1890 e ele foi exposto na Royal Academy em 1891. Fildes construiu no estúdio o interior de uma casa de campo para o pintar. Está na Tate Britain, em Londres.",
+        "Luke Fildes (1843–1927) perdeu um filho de um ano, Philip, que morreu de febre tifoide na manhã de Natal de 1877. Disse que queria «deixar registado o estatuto do médico no nosso tempo».",
+        "Porque te pode interessar: a imagem tornou-se símbolo da profissão — em 1949 a Associação Médica Americana distribuiu 65 000 cartazes com ela, numa campanha contra o seguro de saúde público de Truman. E deixa uma pergunta: o que faz este médico, se não tem tratamento para oferecer?"
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/84/The_Doctor_Luke_Fildes_crop.jpg",
+      "link": {
+        "label": "Ver na Tate",
+        "url": "https://www.tate.org.uk/art/artworks/fildes-the-doctor-n01522"
+      }
+    },
+    {
+      "id": "o-egas-moniz",
+      "kind": "História",
+      "title": "Egas Moniz e um Nobel polémico",
+      "author": "Lisboa, 1927–1949",
+      "year": "1949",
+      "teaser": "O único português com Nobel da Medicina inventou um exame que ainda hoje se usa — mas ganhou o prémio por outra coisa: uma cirurgia ao cérebro que hoje é vista como um erro.",
+      "context": [
+        "Em 1927, em Paris, Egas Moniz apresentou as primeiras angiografias cerebrais: injetava contraste nas artérias para ver os vasos do cérebro em raio-X. Em novembro de 1935, com o neurocirurgião Almeida Lima a operar, fez a primeira leucotomia pré-frontal em doentes psiquiátricos.",
+        "Recebeu o Nobel da Fisiologia ou Medicina em 1949 «pela descoberta do valor terapêutico da leucotomia em certas psicoses». Nos EUA, Freeman e Watts generalizaram a lobotomia; os efeitos graves e a chegada da clorpromazina (1952) fizeram-na cair em desuso. Ainda há quem peça que o prémio seja retirado.",
+        "Porque te pode interessar: foi professor de Neurologia na Faculdade de Medicina de Lisboa de 1911 a 1944 — e a sua história é um caso de estudo em ética: como se prova que um tratamento funciona, e quem decide que resultou?"
+      ],
+      "image": null,
+      "link": {
+        "label": "Ver em nobelprize.org",
+        "url": "https://www.nobelprize.org/prizes/medicine/1949/moniz/facts/"
+      }
+    },
+    {
+      "id": "o-ensaio-cegueira",
+      "kind": "Livro",
+      "title": "Ensaio sobre a Cegueira",
+      "author": "José Saramago",
+      "year": "1995",
+      "teaser": "Um homem fica cego parado num semáforo. Depois cega o oftalmologista que o observa, os doentes da sala de espera e, aos poucos, a cidade inteira — menos uma mulher.",
+      "context": [
+        "Uma epidemia inexplicável de «cegueira branca» espalha-se por uma cidade sem nome. Os primeiros cegos são postos em quarentena num antigo manicómio; a mulher do médico, a única que continua a ver, finge-se cega para acompanhar o marido. Nenhuma personagem tem nome.",
+        "Saramago (1922–2010) publicou o romance em 1995 e recebeu o Nobel da Literatura em 1998. Escreveu depois uma continuação, Ensaio sobre a Lucidez (2004), e o livro foi adaptado ao cinema por Fernando Meirelles (2008).",
+        "Porque te pode interessar: é um romance sobre epidemia, quarentena e o que acontece às regras quando o sistema falha — e uma das personagens centrais é um médico. Lê-se de outra maneira depois da covid."
+      ],
+      "image": null,
+      "link": null
     }
   ],
   "aprende": [
@@ -42,48 +177,177 @@
       "example": "Imagina dois escalões: até 10 000 € paga-se 10%, acima disso 20%. Quem ganha 10 001 € paga 20% só sobre 1 €. O resto continua a 10%.",
       "note": "Nas tabelas reais aparece uma \"parcela a abater\": é só um atalho de cálculo que dá exatamente este resultado.",
       "example_label": "Exemplo com números simplificados"
+    },
+    {
+      "id": "a-irs-retencao",
+      "serie": "Impostos sem mistério",
+      "part": 2,
+      "total": 3,
+      "minutes": 2,
+      "title": "O IRS que te descontam no recibo não é o imposto final",
+      "body": "A retenção na fonte é um adiantamento: todos os meses a entidade patronal entrega ao Estado uma parte do teu salário por conta do IRS do ano. Entre 1 de abril e 30 de junho do ano seguinte entregas a declaração, e as Finanças calculam o imposto real e comparam-no com o que já pagaste.",
+      "example_label": "Exemplo com números simplificados",
+      "example": "Ao longo do ano retiveram-te 1 500 €. Se o imposto calculado for 1 200 €, recebes 300 € de reembolso. Se for 1 700 €, pagas os 200 € que faltam.",
+      "note": "O reembolso não é um prémio: é dinheiro teu adiantado a mais. Para declarações entregues a tempo, o reembolso ou o pagamento acontecem até 31 de agosto."
+    },
+    {
+      "id": "a-irs-deducoes",
+      "serie": "Impostos sem mistério",
+      "part": 3,
+      "total": 3,
+      "minutes": 2,
+      "title": "Porque é que te pedem o NIF em cada fatura",
+      "body": "Parte do que gastas desconta diretamente no imposto a pagar — são as deduções à coleta. As Finanças só sabem dessas despesas pelas faturas comunicadas no e-Fatura com o teu NIF.",
+      "example_label": "Regras atuais (Código do IRS, art. 78.º-B e 78.º-C)",
+      "example": "Despesas gerais familiares (supermercado, roupa, eletricidade…): 35% do valor, até 250 € por contribuinte. Saúde (com IVA isento ou à taxa reduzida): 15%, até 1 000 €. Quem gastar 300 € em consultas e medicamentos desconta 45 € no IRS.",
+      "note": "No e-Fatura podes ver se as faturas foram comunicadas e se estão no setor certo — as deduções são calculadas com o que lá estiver no fim de fevereiro do ano seguinte."
+    },
+    {
+      "id": "a-ceu-azul",
+      "serie": "",
+      "part": 1,
+      "total": 1,
+      "minutes": 2,
+      "title": "Porque é que o céu é azul (e o pôr do sol é laranja)",
+      "body": "A luz do Sol tem todas as cores. Ao atravessar a atmosfera, choca com moléculas de azoto e oxigénio que espalham muito mais a luz de comprimento de onda curto (azul) do que a de comprimento longo (vermelho) — é a dispersão de Rayleigh. Por isso chega-te luz azul vinda de todos os pontos do céu.",
+      "example_label": "Exemplo",
+      "example": "Ao pôr do sol, a luz atravessa muito mais atmosfera até chegar a ti: o azul vai sendo espalhado pelo caminho e sobra sobretudo o laranja e o vermelho.",
+      "note": "A dispersão é proporcional a 1/λ⁴: o azul (≈450 nm) espalha-se cerca de 5 a 6 vezes mais do que o vermelho (≈700 nm)."
+    },
+    {
+      "id": "a-lei-assembleia",
+      "serie": "Como nasce uma lei",
+      "part": 1,
+      "total": 2,
+      "minutes": 2,
+      "title": "Como nasce uma lei na Assembleia da República",
+      "body": "Uma lei pode ser proposta por deputados, grupos parlamentares, pelo Governo ou por grupos de cidadãos eleitores. Na Assembleia é discutida na generalidade (a ideia geral) e na especialidade (artigo a artigo, muitas vezes em comissão), e passa por três votações — a última, a votação final global, é sempre em plenário.",
+      "example_label": "Exemplo",
+      "example": "Um partido apresenta um projeto de lei sobre estágios. Aprovado na generalidade, segue para a comissão parlamentar, onde se alteram artigos; volta depois ao plenário para a votação final global. O texto aprovado chama-se «decreto da Assembleia» e vai para o Presidente da República.",
+      "note": "Quando é o Governo a propor, chama-se proposta de lei; quando são deputados, projeto de lei."
+    },
+    {
+      "id": "a-lei-presidente",
+      "serie": "Como nasce uma lei",
+      "part": 2,
+      "total": 2,
+      "minutes": 2,
+      "title": "O que pode o Presidente da República fazer a uma lei",
+      "body": "Ao receber um decreto da Assembleia, o Presidente tem 20 dias para o promulgar ou vetar — e o veto tem de ser explicado numa mensagem. Nos primeiros 8 dias pode também pedir ao Tribunal Constitucional que verifique se a lei respeita a Constituição.",
+      "example_label": "Exemplo",
+      "example": "O Presidente veta. A Assembleia pode confirmar o mesmo texto por maioria absoluta dos deputados em funções (116 em 230) e, nesse caso, o Presidente é obrigado a promulgar em 8 dias. Depois de promulgada, a lei é publicada no Diário da República.",
+      "note": "Se o Tribunal Constitucional disser que a lei é inconstitucional, o veto passa a ser obrigatório. Em algumas matérias, como as leis orgânicas, a confirmação exige dois terços dos deputados presentes."
+    },
+    {
+      "id": "a-bce-inflacao",
+      "serie": "",
+      "part": 1,
+      "total": 1,
+      "minutes": 2,
+      "title": "Quem controla a inflação na zona euro — e como",
+      "body": "É o Banco Central Europeu, cujo objetivo é uma inflação de 2% a médio prazo. A ferramenta principal são as taxas de juro: o BCE orienta a política sobretudo pela taxa da facilidade de depósito, o juro que paga aos bancos pelo dinheiro que lá deixam.",
+      "example_label": "Exemplo",
+      "example": "Se os preços sobem depressa, o BCE sobe os juros: os empréstimos ficam mais caros, gasta-se menos e os preços abrandam. Se a inflação fica abaixo de 2%, faz o contrário. Desde 16 de setembro de 2026, a taxa da facilidade de depósito está em 2,50%.",
+      "note": "Quem decide é o Conselho do BCE: os 6 membros da Comissão Executiva e os governadores dos 21 bancos centrais da zona euro, incluindo o do Banco de Portugal."
     }
   ],
   "radar": {
-    "updated": "domingo, 22 nov",
+    "updated": "segunda, 23 nov",
     "urgent": [],
     "items": [
       {
-        "id": "r-gulbenkian",
-        "kind": "Bolsa de investigação",
-        "title": "Bolsas Gulbenkian Novos Talentos",
-        "status": "Fechou a 30 set 2026",
-        "detail": "Iniciação à investigação com tutor, para estudantes do ensino superior com média elevada. Fica no radar para a próxima edição.",
-        "url": "https://gulbenkian.pt/bolsas-lista/novos-talentos/"
+        "id": "r-vbc",
+        "kind": "Estágio de verão",
+        "title": "Vienna BioCenter Summer School 2027",
+        "status": "Fecha a 11 jan",
+        "detail": "Estágio pago (~820 €/mês) em laboratórios de Viena, de julho a agosto, para estudantes de ciências da vida de todo o mundo. Exige 2 anos completos até 30 de junho de 2027 — confirma com eles se o teu 2.º ano conta.",
+        "url": "https://training.vbc.ac.at/summer-school/"
+      },
+      {
+        "id": "r-amgen-cambridge",
+        "kind": "Estágio de verão",
+        "title": "Amgen Scholars Europe — Universidade de Cambridge",
+        "status": "Fecha a 1 fev",
+        "detail": "Programa de investigação pago de 5 jul a 4 set de 2027. A página aceita estudantes de medicina que ainda não terminaram o 4.º ano.",
+        "url": "https://amgenscholars.bio.cam.ac.uk/cambridge-programme/eligibility"
+      },
+      {
+        "id": "r-amgen-europa",
+        "kind": "Estágio de verão",
+        "title": "Amgen Scholars Europe — ETH Zurique, Instituto Pasteur, Karolinska, LMU Munique",
+        "status": "Fecha a 1 fev",
+        "detail": "Os mesmos estágios de verão pagos noutras quatro instituições, para estudantes inscritos numa universidade europeia. A elegibilidade de medicina varia: confirma com cada uma.",
+        "url": "https://amgenscholars.com/europe-programme"
+      },
+      {
+        "id": "r-gimm",
+        "kind": "Estágio",
+        "title": "Estágios no GIMM — Gulbenkian Institute for Molecular Medicine",
+        "status": "Candidaturas abertas todo o ano",
+        "detail": "Estágios de investigação em Lisboa para estudantes de licenciatura e mestrado: primeiro arranjas um laboratório com vaga, depois candidatas-te. O acordo com a faculdade pode levar até 6 meses — para o verão, convém começar já.",
+        "url": "https://gimm.pt/?p=217"
+      },
+      {
+        "id": "r-embl",
+        "kind": "Estágio",
+        "title": "Estágios de licenciatura no EMBL",
+        "status": "Candidaturas abertas todo o ano",
+        "detail": "Escreves diretamente ao líder do grupo com CV, motivação e datas. Bolsa e alojamento dependem do laboratório.",
+        "url": "https://www.embl.org/about/info/undergraduates/how-to-apply/"
+      },
+      {
+        "id": "r-aims",
+        "kind": "Congresso",
+        "title": "AIMS Meeting 2027 — Lisboa",
+        "status": "Edição 2027 por anunciar",
+        "detail": "Congresso internacional de estudantes de medicina organizado na FMUL, com competições científicas e clínicas.",
+        "url": "https://www.aimsmeeting.org/"
+      },
+      {
+        "id": "r-imed",
+        "kind": "Congresso",
+        "title": "iMed Conference — Lisboa",
+        "status": "Edição 2027 por anunciar",
+        "detail": "Congresso da associação de estudantes da NOVA Medical School, com a competição de projetos de investigação Innovate (em 2026 fechou a 4 de maio).",
+        "url": "https://www.nms.unl.pt/en-us/faculty/news-and-events/events/detalhe/eventid/17998"
       },
       {
         "id": "r-inesctec",
         "kind": "Estágio de verão",
         "title": "Estágios de Verão em Investigação — INESC TEC",
         "status": "Edição 2027 por anunciar",
-        "detail": "Inclui temas de bioengenharia. Em 2026 o anúncio saiu em abril.",
-        "url": "https://www.inesctec.pt/"
-      },
-      {
-        "id": "r-imed",
-        "kind": "Congresso",
-        "title": "iMed Conference — Lisboa",
-        "status": "[DATA da próxima edição]",
-        "detail": "Congresso de estudantes de ciências da vida com competição de projetos de investigação.",
-        "url": "https://www.fct.unl.pt/noticias/agenda/2026/03/innovate-competition-imed-conference-180-lisbon-2026"
+        "detail": "Estágios não remunerados no Porto, sobretudo em engenharia; só interessam os temas de saúde. Em 2026 as candidaturas foram de 22 abr a 19 mai.",
+        "url": "https://www.inesctec.pt/en/events/inesc-tec-summer-research-internships"
       }
     ]
   },
   "historico": {
     "poemas": [
       "Ser Poeta — Florbela Espanca",
-      "Para ser grande, sê inteiro — Ricardo Reis (Fernando Pessoa)"
+      "Para ser grande, sê inteiro — Ricardo Reis (Fernando Pessoa)",
+      "Amor é um fogo que arde sem se ver — Luís de Camões",
+      "\"Hope\" is the thing with feathers — Emily Dickinson",
+      "Na mão de Deus — Antero de Quental",
+      "Inscripção — Camilo Pessanha",
+      "Fim — Mário de Sá-Carneiro"
     ],
     "obras": [
-      "A Morte de Ivan Ilitch"
+      "A Morte de Ivan Ilitch",
+      "A Lição de Anatomia do Dr. Nicolaes Tulp",
+      "O mapa de John Snow e a bomba de Broad Street",
+      "O Homem Que Confundiu a Mulher com um Chapéu",
+      "O Médico (The Doctor)",
+      "Egas Moniz e um Nobel polémico",
+      "Ensaio sobre a Cegueira"
     ],
     "aprende": [
-      "Porque é que subir de escalão no IRS não te faz ganhar menos"
+      "Porque é que subir de escalão no IRS não te faz ganhar menos",
+      "O IRS que te descontam no recibo não é o imposto final",
+      "Porque é que te pedem o NIF em cada fatura",
+      "Porque é que o céu é azul (e o pôr do sol é laranja)",
+      "Como nasce uma lei na Assembleia da República",
+      "O que pode o Presidente da República fazer a uma lei",
+      "Quem controla a inflação na zona euro — e como"
     ]
   }
 }
