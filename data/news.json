@@ -1,98 +1,124 @@
 {
   "date": "2026-11-23",
-  "updated_at": "2026-11-23T01:30:00+00:00",
-  "note": "Edição de exemplo — as notícias reais chegam com a próxima atualização automática.",
+  "updated_at": "2026-11-23T19:24:21+00:00",
   "items": [
     {
-      "id": "n-ormuz",
+      "id": "n-20261123-ucrania",
       "tema": "internacional",
-      "title": "Ataques no Estreito de Ormuz atingem o nível mais alto desde o início da guerra",
-      "summary": "O Irão tenta reforçar o controlo da passagem enquanto o preço do petróleo desce.",
-      "body": "Os ataques a navios dentro e à volta do Estreito de Ormuz em outubro e novembro foram os mais numerosos desde que a guerra entre os EUA, Israel e o Irão começou, no fim de fevereiro. Em outubro passaram pela primeira vez dos 30 ataques reportados; em novembro já vão pelo menos 22.",
-      "context": "Antes do conflito, cerca de um quinto do petróleo bruto do mundo passava por Ormuz. Qualquer perturbação ali sente-se nos preços da energia — e, por arrasto, na inflação europeia.",
+      "edicao": "manhã",
+      "title": "Ataque russo mata pelo menos 11 perto de Kiev; Ucrânia atinge navios russos longe da frente",
+      "summary": "A guerra intensifica-se dentro e fora da Ucrânia, e a NATO reúne-se depois de um incidente no espaço aéreo polaco.",
+      "body": "Um ataque russo a Dymer, na região de Kiev, fez pelo menos 11 mortos segundo as autoridades ucranianas, e Zelensky falou em 14 desaparecidos num prédio parcialmente destruído. Kiev assumiu entretanto ataques a navios russos muito longe da frente, incluindo uma corveta afundada junto à costa da Líbia, e Moscovo acusou a Ucrânia de terrorismo depois de um cargueiro ter sido atingido por drones no Báltico.",
+      "context": "A Polónia diz que três objetos russos, provavelmente dois mísseis e um drone, violaram o seu espaço aéreo, e o Conselho do Atlântico Norte — o órgão de decisão da NATO — foi convocado para esta segunda-feira. Ao mesmo tempo, Zelensky continua a pressionar Washington pela entrega de mísseis de defesa aérea Patriot.",
       "sources": [
         {
-          "name": "ABC News",
-          "url": "https://abcnews.com/International/strait-hormuz-attacks-increased-highest-level-iran-war/story?id=138304456"
+          "name": "Just Security (resumo de Reuters, AP e Politico)",
+          "url": "https://www.justsecurity.org/165610/early-edition-november-23-2026/"
         },
         {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/21/tankers-hit-in-strait-of-hormuz-as-iran-tightens-grip-on-shipping"
+          "name": "Open Chronicle",
+          "url": "https://openchronicle.org/2026/11/23/global-news-brief-key-developments-around-the-world-november-23-2026/"
         }
-      ],
-      "edicao": "manhã"
+      ]
     },
     {
-      "id": "n-oe2027",
+      "id": "n-20261123-orcamento",
       "tema": "nacional",
-      "title": "Orçamento do Estado para 2027 vai amanhã à votação final global",
-      "summary": "Passou na generalidade graças à abstenção do PS; agora decide-se o texto final.",
-      "body": "Depois de duas semanas de votações na especialidade, a proposta do Governo PSD/CDS-PP é votada amanhã, 24 de novembro, véspera da sessão solene do 25 de Novembro. Na generalidade, a 28 de outubro, teve votos a favor de PSD e CDS-PP e abstenções de PS, PAN e JPP.",
-      "context": "Na especialidade votam-se as propostas de alteração, medida a medida — é aí que mudam IRS, pensões ou deduções. A votação final global aprova o documento inteiro, que segue depois para o Presidente da República.",
+      "edicao": "manhã",
+      "title": "Orçamento para 2027 vai a votação final esta terça, alterado contra a vontade do Governo",
+      "summary": "PS e Chega aprovaram várias medidas a que PSD e CDS se opunham; o voto final é amanhã às 15h.",
+      "body": "Na fase de especialidade, PS e Chega juntaram-se para aprovar alterações que o Governo não queria, como tornar permanente um eventual bónus às pensões, criar uma garantia pública para o arrendamento e manter as propinas congeladas no ano letivo 2027/28. O PSD acusa os dois partidos de desvirtuarem o Orçamento, e nem PS nem Chega anunciaram ainda formalmente como votam na terça-feira.",
+      "context": "Na generalidade, em outubro, o Orçamento passou com os votos de PSD e CDS e a abstenção do PS, que é decisiva: se o PS votar contra, a proposta cai. Um chumbo não obriga a eleições — o Estado passa a gerir-se por duodécimos do orçamento anterior e cabe ao Presidente decidir se dissolve o Parlamento.",
       "sources": [
+        {
+          "name": "RTP",
+          "url": "https://www.rtp.pt/noticias/economia/oe2027-propostas-de-pensoes-e-habitacao-a-revelia-do-psd-e-cds-marcam-primeiro-dia-de-votacoes_n1780145"
+        },
         {
           "name": "Forbes Portugal",
-          "url": "https://www.forbespt.com/?p=199883"
+          "url": "https://www.forbespt.com/oe2027-o-que-foi-votado-e-aprovado-na-especialidade/"
         },
         {
-          "name": "DNoticias",
-          "url": "https://www.dnoticias.pt/2026/10/28/510800-proposta-aprovada-na-generalidade-por-psd-e-cds-pp-com-abstencoes-de-ps-pan-e-jpp/"
+          "name": "VamoLáVer (Paulo Querido)",
+          "url": "https://vamolaver.substack.com/p/orcamento-de-2027-vai-a-votacao-final"
         }
-      ],
-      "edicao": "manhã"
+      ]
     },
     {
-      "id": "n-inflacao",
+      "id": "n-20261123-bolsas",
       "tema": "economia",
-      "title": "Inflação na zona euro sobe para 4%, a mais alta em três anos",
-      "summary": "Em Portugal ficou nos 3,8% em outubro, puxada pela energia.",
-      "body": "O Eurostat confirmou uma inflação de 4,0% em outubro, tanto na zona euro como na UE, acima dos 3,8% de setembro. Em Portugal, o INE confirmou 3,8%, o valor mais alto desde 2023; os produtos energéticos subiram 17,4% num ano.",
-      "context": "Inflação é a subida média dos preços de um cabaz de bens e serviços. Quando sobe por causa da energia, o BCE enfrenta um dilema: subir juros trava a procura, mas não baixa o preço do petróleo.",
+      "edicao": "manhã",
+      "title": "Queda das tecnológicas arrasta Wall Street para correção e contagia a Ásia",
+      "summary": "O S&P 500 caiu cerca de 3,5% na sexta-feira e a bolsa sul-coreana voltou a afundar esta segunda.",
+      "body": "A venda em massa de ações ligadas à inteligência artificial levou o S&P 500 para baixo dos 7000 pontos e deixou o Nasdaq perto de 20% abaixo do máximo de outubro; a Nvidia perdeu quase 14% num dia, depois de a Reuters noticiar que o regulador da bolsa dos EUA está a examinar as suas contas. Esta segunda-feira a bolsa de Seul caiu com força e o Governo sul-coreano prometeu usar o fundo de estabilização do mercado, enquanto os futuros europeus apontavam para uma ligeira recuperação.",
+      "context": "Diz-se que um índice entra em 'correção' quando cai mais de 10% face ao último máximo, e em 'mercado em baixa' a partir dos 20%. Pesa também a Reserva Federal americana, cujos responsáveis admitem quase todos subir juros para travar a inflação, possivelmente já em dezembro — juros mais altos tornam menos atrativas empresas cujo valor depende de lucros futuros, como as tecnológicas.",
       "sources": [
         {
-          "name": "Lusa / Notícias ao Minuto",
-          "url": "https://www.noticiasaominuto.com/economia/3086024/inflacao-acelera-para-4-0-na-zona-euro-e-ue"
+          "name": "Newsquawk",
+          "url": "https://www.newsquawk.com/headlines/us-market-wrap-aggressive-equity-sell-off-sees-spx-enter-correction-and-ndx-test-bear-market"
         },
         {
-          "name": "simula.pt",
-          "url": "https://simula.pt/noticias/inflacao-outubro-2026-definitiva/"
+          "name": "Tickmill",
+          "url": "https://www.tickmill.com/blog/daily-market-outlook-november-23-2026"
         }
-      ],
-      "edicao": "manhã"
+      ]
     },
     {
-      "id": "n-cp",
+      "id": "n-20261123-cop31",
+      "tema": "ambiente",
+      "edicao": "manhã",
+      "title": "Cimeira do clima COP31 termina sem novo acordo e sob críticas da UE",
+      "summary": "Depois de um longo prolongamento em Antália, os críticos apontam a falta de uma referência direta aos combustíveis fósseis.",
+      "body": "A conferência da ONU sobre o clima na Turquia, prevista para acabar a 20 de novembro, arrastou-se até à noite de domingo e tornou-se a mais longa de sempre. A União Europeia, os pequenos estados insulares do Pacífico e outros países criticaram o resultado por não falar diretamente em combustíveis fósseis e por não trazer compromissos claros de financiamento.",
+      "context": "Nas cimeiras do clima as decisões exigem consenso entre quase 200 países, o que dá poder de bloqueio a quem depende do petróleo e do gás. A divisão repete a da COP30 no Brasil, que também acabou sem um plano para abandonar os combustíveis fósseis.",
+      "sources": [
+        {
+          "name": "Just Security (resumo da BBC)",
+          "url": "https://www.justsecurity.org/165610/early-edition-november-23-2026/"
+        },
+        {
+          "name": "Earth Negotiations Bulletin (IISD)",
+          "url": "https://enb.iisd.org/sites/default/files/2026-11/enb12909e.pdf"
+        }
+      ]
+    },
+    {
+      "id": "n-20261123-ciencia",
+      "tema": "ciência",
+      "edicao": "manhã",
+      "title": "Oitenta investigadores acusam o Governo de quebrar compromissos com a ciência",
+      "summary": "Carta aberta ao Presidente, ao primeiro-ministro e aos grupos parlamentares critica o cancelamento de um concurso da FCT.",
+      "body": "Cerca de 80 investigadores e responsáveis de centros de investigação acusam o Ministério da Educação, Ciência e Inovação de não cumprir o que prometeu. Apontam o cancelamento da segunda edição do concurso FCT-Tenure e a proposta de Orçamento para 2027 como sinais de que o futuro da ciência em Portugal está a ser comprometido.",
+      "context": "O FCT-Tenure é um programa da Fundação para a Ciência e a Tecnologia que financia lugares permanentes para investigadores, uma resposta à precariedade de quem trabalha anos seguidos com bolsas e contratos a prazo. A carta chega na véspera da votação final do Orçamento.",
+      "sources": [
+        {
+          "name": "e-Global (revista de imprensa)",
+          "url": "https://e-global.pt/noticias/revista-de-imprensa-lusofona-de-23-de-novembro-de-2026/"
+        },
+        {
+          "name": "VamoLáVer (Paulo Querido)",
+          "url": "https://vamolaver.substack.com/p/orcamento-de-2027-vai-a-votacao-final"
+        }
+      ]
+    },
+    {
+      "id": "n-20261123-greve-cp",
       "tema": "sociedade",
-      "title": "Greve dos maquinistas da CP começa hoje e dura até sexta-feira",
-      "summary": "Podes trocar o bilhete ou pedir o reembolso total.",
-      "body": "O Sindicato dos Maquinistas (SMAQ) marcou greve de 23 a 27 de novembro. A CP admite perturbações também nos dias 22 e 28. Quem não conseguir viajar pode pedir o reembolso total ou trocar para outro comboio da mesma categoria e classe, sem custos.",
-      "context": "Os serviços mínimos numa greve são definidos por acordo ou, sem acordo, por um tribunal arbitral — por isso às vezes só se sabem em cima da hora.",
+      "edicao": "manhã",
+      "title": "Greve dos maquinistas da CP é total esta terça e quarta",
+      "summary": "A paralisação dura até sexta-feira e já suprimiu comboios na segunda de manhã.",
+      "body": "O Sindicato dos Maquinistas convocou cinco dias de greve, de 23 a 27 de novembro, por salários, condições de trabalho e segurança: parcial na segunda e na quinta, total na terça e na quarta. Na manhã de segunda já tinham sido cancelados cerca de 30 comboios, e a CP avisa que pode haver perturbações também no dia seguinte ao fim da greve.",
+      "context": "Quem tiver bilhete de Alfa Pendular, Intercidades, Regional ou InterRegional pode pedir reembolso total ou trocar sem custos de comboio, online até 15 minutos antes da partida ou na bilheteira até 10 dias depois da greve. Para 24 e 25 foram fixados serviços mínimos de 25% a 30% da oferta, por isso convém confirmar horários antes de sair de casa.",
       "sources": [
         {
           "name": "RFM",
           "url": "https://rfm.pt/atualidade/24323/greve-na-cp-de-23-a-27-de-novembro-que-comboios-podem-ser-afetados-e-como-pedir-o-reembolso"
         },
         {
-          "name": "Diário de Notícias",
-          "url": "https://www.dn.pt/sociedade/maquinistas-da-cp-convocam-greve-entre-os-dias-23-e-27-de-novembro"
+          "name": "e-Global (cita o DN)",
+          "url": "https://e-global.pt/noticias/revista-de-imprensa-lusofona-de-23-de-novembro-de-2026/"
         }
-      ],
-      "edicao": "manhã"
-    },
-    {
-      "id": "n-gedeao",
-      "tema": "ciência e cultura",
-      "title": "Amanhã é o Dia Nacional da Cultura Científica",
-      "summary": "Celebra Rómulo de Carvalho, o físico que assinava poemas como António Gedeão.",
-      "body": "O dia assinala o nascimento de Rómulo de Carvalho, a 24 de novembro de 1906: professor de física, divulgador de ciência e poeta. Por todo o país há atividades abertas; em Lisboa, a Semana da Cultura Científica do Museu de Lisboa termina hoje.",
-      "context": "É o autor de \"Pedra Filosofal\", o poema que Manuel Freire musicou. Ciência e poesia na mesma pessoa.",
-      "sources": [
-        {
-          "name": "Time Out Lisboa",
-          "url": "https://www.timeout.pt/lisboa/pt/noticias/um-dia-a-viajar-pelo-sistema-solar-outro-para-ser-museologo-e-a-semana-da-cultura-cientifica-111625"
-        }
-      ],
-      "edicao": "manhã"
+      ]
     }
   ]
 }
