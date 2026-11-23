@@ -2,30 +2,43 @@
   "updated": "23 nov",
   "items": [
     {
-      "id": "c-estatinas-70",
+      "id": "c-paradigm4tb",
       "journal": "NEJM",
-      "date": "7 nov 2026",
-      "title": "Parar as estatinas depois dos 70 anos: \"não inferior\" no papel, mais eventos na prática",
-      "pergunta": "Em prevenção primária, é seguro suspender a estatina a partir dos 70 anos?",
-      "desenho": "Ensaio clínico aleatorizado de não-inferioridade, internacional",
-      "participantes": "1880 adultos com 70 ou mais anos",
-      "resultado": "Cumpriu o critério de não-inferioridade, mas a 2 anos houve evento major ou morte em 12,7% de quem parou vs 9,2% de quem continuou",
-      "limitacao": "Seguimento curto; a margem de não-inferioridade pode esconder uma diferença com importância clínica",
-      "importa": "Desprescrever em idosos é uma decisão frequente — e este estudo mostra porque é que \"não inferior\" não quer dizer \"igual\".",
-      "url": "https://www.nejm.org/"
+      "date": "nov 2026",
+      "title": "Tuberculose: dois novos regimes de 16 semanas avançam para a fase seguinte",
+      "pergunta": "Regimes com dois fármacos novos (ganfeborole e BTZ-043) conseguem encurtar o tratamento da TB pulmonar de 24 para 16 semanas?",
+      "desenho": "Ensaio de fase 2 em \"plataforma\" (vários regimes testados em paralelo contra o tratamento padrão)",
+      "participantes": "401 adultos com TB pulmonar sensível à rifampicina, em 14 centros de 5 países",
+      "resultado": "Na primeira fase foram testados 4 regimes com ganfeborole e 5 com BTZ-043; um de cada foi escolhido para continuar. Um regime com BTZ-043, bedaquilina, pirazinamida e moxifloxacina mostrou sinal de toxicidade hepática",
+      "limitacao": "Resultados de fase 2: ainda não provam que 16 semanas curam tão bem como 24",
+      "importa": "Encurtar o tratamento da TB facilita a adesão, que é um dos maiores problemas no controlo da doença.",
+      "url": "https://idw-online.de/de/news881217"
     },
     {
-      "id": "c-semaglutido-criancas",
+      "id": "c-step-young",
       "journal": "NEJM",
       "date": "16 nov 2026",
       "title": "Semaglutido reduz o IMC em crianças dos 6 aos 11 anos com obesidade",
-      "pergunta": "O semaglutido funciona em crianças com obesidade antes da adolescência?",
-      "desenho": "Ensaio de fase 3, aleatorizado, em dupla ocultação, contra placebo",
-      "participantes": "167 crianças dos 6 aos 11 anos",
-      "resultado": "Redução do IMC significativamente maior do que com placebo",
-      "limitacao": "Amostra pequena; os efeitos a longo prazo no crescimento ainda não são conhecidos",
-      "importa": "Alarga a discussão sobre tratamento farmacológico da obesidade a idades em que até agora quase não havia opções.",
-      "url": "https://www.nejm.org/"
+      "pergunta": "O semaglutido semanal, junto com aconselhamento de estilo de vida, funciona em crianças com obesidade antes da adolescência?",
+      "desenho": "Ensaio de fase 3, aleatorizado 2:1 contra placebo, 104 semanas (STEP Young)",
+      "participantes": "167 crianças dos 6 aos 11 anos (112 semaglutido, 55 placebo)",
+      "resultado": "Às 68 semanas, o IMC desceu 13,5% com semaglutido e subiu 2,7% com placebo; 79% vs 23% desceram de categoria de IMC",
+      "limitacao": "Efeitos gastrointestinais muito frequentes (diarreia 62% vs 35%; náuseas 58% vs 24%) e efeitos a longo prazo no crescimento desconhecidos",
+      "importa": "É o primeiro grande ensaio com um fármaco anti-obesidade abaixo dos 12 anos, uma idade em que hoje não há tratamento farmacológico aprovado.",
+      "url": "https://www.beckershospitalreview.com/glp-1s/1st-big-glp-1-trial-in-kids-under-12-delivers-double-digit-bmi-drop-6-notes/"
+    },
+    {
+      "id": "c-stream-estatinas",
+      "journal": "NEJM",
+      "date": "7 nov 2026",
+      "title": "Parar as estatinas depois dos 70: \"não inferior\" a 2 anos, mas com sinais de risco mais tarde",
+      "pergunta": "Em idosos sem doença cardiovascular, é seguro suspender a estatina usada em prevenção primária?",
+      "desenho": "Ensaio aleatorizado, aberto, de não-inferioridade, com avaliação cega dos eventos (STREAM), em 24 centros da Suíça, Países Baixos e França",
+      "participantes": "1880 adultos com 70 ou mais anos e pelo menos duas doenças crónicas",
+      "resultado": "Aos 2 anos, parar não foi inferior a continuar (enfarte, AVC isquémico ou morte); com seguimento até 4 anos houve mais eventos cardiovasculares em quem parou. Sem diferenças em qualidade de vida, dor ou quedas",
+      "limitacao": "Ensaio aberto e só em idosos com multimorbilidade; \"não inferior\" não quer dizer \"sem risco\"",
+      "importa": "Ajuda a decidir sobre desprescrição em idosos — e mostra porque é que a margem de não-inferioridade tem de ser lida com cuidado.",
+      "url": "https://www.hcplive.com/view/stream-statin-discontinuation-noninferior-in-older-adults-without-cvd"
     }
   ]
 }
