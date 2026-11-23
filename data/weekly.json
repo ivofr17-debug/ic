@@ -1,0 +1,89 @@
+{
+  "week_of": "2026-11-23",
+  "poems": [
+    {
+      "title": "Ser Poeta",
+      "author": "Florbela Espanca",
+      "source": "Charneca em Flor, 1931",
+      "text": "Ser poeta é ser mais alto, é ser maior\nDo que os homens! Morder como quem beija!\nÉ ser mendigo e dar como quem seja\nRei do Reino de Aquém e de Além Dor!\n\nÉ ter de mil desejos o esplendor\nE não saber sequer que se deseja!\nÉ ter cá dentro um astro que flameja,\nÉ ter garras e asas de condor!\n\nÉ ter fome, é ter sede de Infinito!\nPor elmo, as manhãs de oiro e de cetim…\nÉ condensar o mundo num só grito!\n\nE é amar-te, assim, perdidamente…\nÉ seres alma, e sangue, e vida em mim\nE dizê-lo cantando a toda a gente!"
+    },
+    {
+      "title": "Para ser grande, sê inteiro",
+      "author": "Ricardo Reis (Fernando Pessoa)",
+      "source": "Odes, 1933",
+      "text": "Para ser grande, sê inteiro: nada\nTeu exagera ou exclui.\nSê todo em cada coisa. Põe quanto és\nNo mínimo que fazes.\nAssim em cada lago a lua toda\nBrilha, porque alta vive."
+    }
+  ],
+  "obras": [
+    {
+      "id": "o-ivan-ilitch",
+      "kind": "Livro",
+      "title": "A Morte de Ivan Ilitch",
+      "author": "Lev Tolstói",
+      "year": "1886",
+      "teaser": "Um juiz respeitável descobre, ao adoecer, que viveu uma vida \"agradável e decente\" — e que isso talvez não chegue. Uma novela curta que se lê numa tarde.",
+      "context": [
+        "Ivan Ilitch é um funcionário judicial de carreira certinha em São Petersburgo. Magoa-se no flanco ao pendurar cortinas na casa nova e a dor transforma-se numa doença que ninguém sabe nomear. À medida que piora, todos à volta — família, colegas, médicos — fingem que não é nada.",
+        "Tolstói escreveu-a depois da crise espiritual que contou em Confissão. A pergunta do livro é dele: o que é viver bem, se a morte é certa?",
+        "Porque te pode interessar: os médicos do livro falam de órgãos e diagnósticos e nunca do doente. É leitura frequente em cursos de humanidades médicas — e o único que trata Ivan com verdade é o criado, Guerássim."
+      ],
+      "link": null
+    }
+  ],
+  "aprende": [
+    {
+      "id": "a-irs-marginal",
+      "serie": "Impostos sem mistério",
+      "part": 1,
+      "total": 3,
+      "minutes": 2,
+      "title": "Porque é que subir de escalão no IRS não te faz ganhar menos",
+      "body": "A taxa de cada escalão aplica-se só à parte do rendimento que cai dentro desse escalão — não ao rendimento todo. Chama-se taxa marginal.",
+      "example": "Imagina dois escalões: até 10 000 € paga-se 10%, acima disso 20%. Quem ganha 10 001 € paga 20% só sobre 1 €. O resto continua a 10%.",
+      "note": "Nas tabelas reais aparece uma \"parcela a abater\": é só um atalho de cálculo que dá exatamente este resultado.",
+      "example_label": "Exemplo com números simplificados"
+    }
+  ],
+  "radar": {
+    "updated": "domingo, 22 nov",
+    "urgent": [],
+    "items": [
+      {
+        "id": "r-gulbenkian",
+        "kind": "Bolsa de investigação",
+        "title": "Bolsas Gulbenkian Novos Talentos",
+        "status": "Fechou a 30 set 2026",
+        "detail": "Iniciação à investigação com tutor, para estudantes do ensino superior com média elevada. Fica no radar para a próxima edição.",
+        "url": "https://gulbenkian.pt/bolsas-lista/novos-talentos/"
+      },
+      {
+        "id": "r-inesctec",
+        "kind": "Estágio de verão",
+        "title": "Estágios de Verão em Investigação — INESC TEC",
+        "status": "Edição 2027 por anunciar",
+        "detail": "Inclui temas de bioengenharia. Em 2026 o anúncio saiu em abril.",
+        "url": "https://www.inesctec.pt/"
+      },
+      {
+        "id": "r-imed",
+        "kind": "Congresso",
+        "title": "iMed Conference — Lisboa",
+        "status": "[DATA da próxima edição]",
+        "detail": "Congresso de estudantes de ciências da vida com competição de projetos de investigação.",
+        "url": "https://www.fct.unl.pt/noticias/agenda/2026/03/innovate-competition-imed-conference-180-lisbon-2026"
+      }
+    ]
+  },
+  "historico": {
+    "poemas": [
+      "Ser Poeta — Florbela Espanca",
+      "Para ser grande, sê inteiro — Ricardo Reis (Fernando Pessoa)"
+    ],
+    "obras": [
+      "A Morte de Ivan Ilitch"
+    ],
+    "aprende": [
+      "Porque é que subir de escalão no IRS não te faz ganhar menos"
+    ]
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "date": "2026-11-23",
+  "updated_at": "2026-11-23T01:30:00+00:00",
+  "note": "Edição de exemplo — as notícias reais chegam com a próxima atualização automática.",
+  "items": [
+    {
+      "id": "n-ormuz",
+      "tema": "internacional",
+      "title": "Ataques no Estreito de Ormuz atingem o nível mais alto desde o início da guerra",
+      "summary": "O Irão tenta reforçar o controlo da passagem enquanto o preço do petróleo desce.",
+      "body": "Os ataques a navios dentro e à volta do Estreito de Ormuz em outubro e novembro foram os mais numerosos desde que a guerra entre os EUA, Israel e o Irão começou, no fim de fevereiro. Em outubro passaram pela primeira vez dos 30 ataques reportados; em novembro já vão pelo menos 22.",
+      "context": "Antes do conflito, cerca de um quinto do petróleo bruto do mundo passava por Ormuz. Qualquer perturbação ali sente-se nos preços da energia — e, por arrasto, na inflação europeia.",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://abcnews.com/International/strait-hormuz-attacks-increased-highest-level-iran-war/story?id=138304456"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/21/tankers-hit-in-strait-of-hormuz-as-iran-tightens-grip-on-shipping"
+        }
+      ],
+      "edicao": "manhã"
+    },
+    {
+      "id": "n-oe2027",
+      "tema": "nacional",
+      "title": "Orçamento do Estado para 2027 vai amanhã à votação final global",
+      "summary": "Passou na generalidade graças à abstenção do PS; agora decide-se o texto final.",
+      "body": "Depois de duas semanas de votações na especialidade, a proposta do Governo PSD/CDS-PP é votada amanhã, 24 de novembro, véspera da sessão solene do 25 de Novembro. Na generalidade, a 28 de outubro, teve votos a favor de PSD e CDS-PP e abstenções de PS, PAN e JPP.",
+      "context": "Na especialidade votam-se as propostas de alteração, medida a medida — é aí que mudam IRS, pensões ou deduções. A votação final global aprova o documento inteiro, que segue depois para o Presidente da República.",
+      "sources": [
+        {
+          "name": "Forbes Portugal",
+          "url": "https://www.forbespt.com/?p=199883"
+        },
+        {
+          "name": "DNoticias",
+          "url": "https://www.dnoticias.pt/2026/10/28/510800-proposta-aprovada-na-generalidade-por-psd-e-cds-pp-com-abstencoes-de-ps-pan-e-jpp/"
+        }
+      ],
+      "edicao": "manhã"
+    },
+    {
+      "id": "n-inflacao",
+      "tema": "economia",
+      "title": "Inflação na zona euro sobe para 4%, a mais alta em três anos",
+      "summary": "Em Portugal ficou nos 3,8% em outubro, puxada pela energia.",
+      "body": "O Eurostat confirmou uma inflação de 4,0% em outubro, tanto na zona euro como na UE, acima dos 3,8% de setembro. Em Portugal, o INE confirmou 3,8%, o valor mais alto desde 2023; os produtos energéticos subiram 17,4% num ano.",
+      "context": "Inflação é a subida média dos preços de um cabaz de bens e serviços. Quando sobe por causa da energia, o BCE enfrenta um dilema: subir juros trava a procura, mas não baixa o preço do petróleo.",
+      "sources": [
+        {
+          "name": "Lusa / Notícias ao Minuto",
+          "url": "https://www.noticiasaominuto.com/economia/3086024/inflacao-acelera-para-4-0-na-zona-euro-e-ue"
+        },
+        {
+          "name": "simula.pt",
+          "url": "https://simula.pt/noticias/inflacao-outubro-2026-definitiva/"
+        }
+      ],
+      "edicao": "manhã"
+    },
+    {
+      "id": "n-cp",
+      "tema": "sociedade",
+      "title": "Greve dos maquinistas da CP começa hoje e dura até sexta-feira",
+      "summary": "Podes trocar o bilhete ou pedir o reembolso total.",
+      "body": "O Sindicato dos Maquinistas (SMAQ) marcou greve de 23 a 27 de novembro. A CP admite perturbações também nos dias 22 e 28. Quem não conseguir viajar pode pedir o reembolso total ou trocar para outro comboio da mesma categoria e classe, sem custos.",
+      "context": "Os serviços mínimos numa greve são definidos por acordo ou, sem acordo, por um tribunal arbitral — por isso às vezes só se sabem em cima da hora.",
+      "sources": [
+        {
+          "name": "RFM",
+          "url": "https://rfm.pt/atualidade/24323/greve-na-cp-de-23-a-27-de-novembro-que-comboios-podem-ser-afetados-e-como-pedir-o-reembolso"
+        },
+        {
+          "name": "Diário de Notícias",
+          "url": "https://www.dn.pt/sociedade/maquinistas-da-cp-convocam-greve-entre-os-dias-23-e-27-de-novembro"
+        }
+      ],
+      "edicao": "manhã"
+    },
+    {
+      "id": "n-gedeao",
+      "tema": "ciência e cultura",
+      "title": "Amanhã é o Dia Nacional da Cultura Científica",
+      "summary": "Celebra Rómulo de Carvalho, o físico que assinava poemas como António Gedeão.",
+      "body": "O dia assinala o nascimento de Rómulo de Carvalho, a 24 de novembro de 1906: professor de física, divulgador de ciência e poeta. Por todo o país há atividades abertas; em Lisboa, a Semana da Cultura Científica do Museu de Lisboa termina hoje.",
+      "context": "É o autor de \"Pedra Filosofal\", o poema que Manuel Freire musicou. Ciência e poesia na mesma pessoa.",
+      "sources": [
+        {
+          "name": "Time Out Lisboa",
+          "url": "https://www.timeout.pt/lisboa/pt/noticias/um-dia-a-viajar-pelo-sistema-solar-outro-para-ser-museologo-e-a-semana-da-cultura-cientifica-111625"
+        }
+      ],
+      "edicao": "manhã"
+    }
+  ]
+}

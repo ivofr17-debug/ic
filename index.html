@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>IC</title>
+<meta name="theme-color" content="#FBFBF9">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="IC">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#FBFBF9; --card:#FFFFFF; --soft:#F1F0EC; --ink:#16181D; --muted:#5B5E66; --body:#4A4D55;
+    --line:#E4E2DC; --accent:#2346A0; --accent-soft:#E8EDF8; --warn:#A3361F; --warn-soft:#FDF4F1;
+    --night:#101418; --night-ink:#F1EEE6; --night-muted:#A9AEB6; --night-line:#3A414B;
+    --serif:Newsreader, Georgia, "Times New Roman", serif;
+    --sans:Inter, system-ui, -apple-system, "Segoe UI", sans-serif;
+    --st:env(safe-area-inset-top,0px); --sb:env(safe-area-inset-bottom,0px);
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 var(--sans);-webkit-font-smoothing:antialiased}
+  a{color:var(--accent)} a:hover{color:#16307A}
+  button{font:inherit;color:inherit;cursor:pointer}
+  .col{max-width:560px;margin:0 auto;min-height:100vh;position:relative}
+  .hidden{display:none!important}
+
+  /* poema */
+  .poem{min-height:100vh;background:var(--night);color:var(--night-ink);display:flex;flex-direction:column;
+        padding:calc(var(--st) + 28px) 30px calc(var(--sb) + 28px)}
+  .poem-top{display:flex;justify-content:space-between;align-items:center}
+  .brand{font-family:var(--serif);font-size:22px;font-weight:600;letter-spacing:.02em}
+  .date{font-size:12px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--night-muted)}
+  .poem-mid{flex:1;display:flex;flex-direction:column;justify-content:center;gap:22px;padding:28px 0}
+  .eyebrow{font-size:12px;font-weight:600;letter-spacing:.1em;text-transform:uppercase}
+  .poem .eyebrow{color:#9DB4F0}
+  .poem-text{margin:0;font-family:var(--serif);font-style:italic;font-size:21px;line-height:1.5;white-space:pre-line}
+  .poem-by{margin:0;font-size:14px;color:var(--night-muted)}
+  .row{display:flex;gap:10px;flex-wrap:wrap}
+  .ghost{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 16px;border-radius:22px;
+         border:1px solid var(--night-line);background:transparent;color:var(--night-ink);font-size:14px;font-weight:500}
+  .enter{display:flex;align-items:center;justify-content:space-between;min-height:64px;padding:0 22px;border-radius:18px;
+         background:var(--night-ink);color:var(--night);border:0;text-align:left;width:100%}
+  .enter b{display:block;font-size:16px} .enter small{font-size:13px;color:#4A4F57}
+
+  /* separadores */
+  .screen{padding:calc(var(--st) + 20px) 22px calc(var(--sb) + 110px)}
+  .head{display:flex;justify-content:space-between;align-items:center}
+  .head .eyebrow{color:var(--muted)}
+  .iconbtn{width:44px;height:44px;display:grid;place-items:center;border:0;background:transparent;color:var(--muted);border-radius:12px}
+  h1{margin:2px 0 4px;font-family:var(--serif);font-size:34px;font-weight:600;line-height:1.1}
+  .sub{margin:0;font-size:14px;color:var(--muted)}
+  .demo{margin:12px 0 0;padding:8px 12px;border-radius:10px;background:var(--accent-soft);color:var(--accent);font-size:13px;font-weight:500}
+  .news{list-style:none;margin:10px 0 0;padding:0}
+  .news li{border-bottom:1px solid var(--line)} .news li:last-child{border-bottom:0}
+  .news button{display:flex;flex-direction:column;gap:4px;width:100%;padding:14px 0;border:0;background:transparent;text-align:left}
+  .news .t{font-family:var(--serif);font-size:19px;font-weight:600;line-height:1.25}
+  .news .s{font-size:14px;line-height:1.4;color:var(--body)}
+  .end{margin:14px 0 0;font-size:13px;color:var(--muted);text-align:center}
+
+  .back{display:inline-flex;align-items:center;gap:4px;min-height:44px;padding:0;border:0;background:transparent;color:var(--accent);font-size:15px;font-weight:500}
+  .meta{margin:6px 0 0;font-size:13px;color:var(--muted)}
+  .lead{margin:14px 0 0;font-size:16.5px;line-height:1.6}
+  .box{margin-top:14px;padding:14px 16px;border-radius:14px;background:var(--soft)}
+  .box .eyebrow{color:var(--muted);font-size:11.5px}
+  .box p{margin:6px 0 0;font-size:15px;line-height:1.55}
+  .links{display:flex;flex-direction:column;gap:2px;margin-top:10px}
+  .links a{display:inline-flex;align-items:center;gap:6px;min-height:40px;font-size:15px;font-weight:500;text-decoration:none}
+  .fb{display:flex;gap:8px;margin-top:14px}
+  .chip{display:inline-flex;align-items:center;gap:6px;min-height:40px;padding:0 14px;border-radius:20px;border:1px solid #C9CCD3;background:transparent;font-size:14px;font-weight:500}
+  .chip[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:var(--bg)}
+  .ask{margin-top:18px;display:flex;align-items:center;justify-content:center;gap:8px;width:100%;min-height:52px;border:0;border-radius:16px;background:var(--ink);color:var(--bg);font-size:15px;font-weight:600}
+
+  .img-ph{height:150px;border-radius:16px;background:#1E2228;display:flex;align-items:center;justify-content:center;
+          color:var(--night-muted);font-family:var(--serif);font-size:44px;font-style:italic}
+  .kind{display:inline-block;padding:4px 10px;border-radius:99px;background:var(--accent-soft);color:var(--accent);font-size:12px;font-weight:600}
+  .primary{display:flex;align-items:center;justify-content:center;gap:8px;min-height:48px;padding:0 16px;border-radius:14px;border:0;background:var(--ink);color:var(--bg);font-size:14.5px;font-weight:600;flex:1}
+  .secondary{display:flex;align-items:center;justify-content:center;gap:8px;min-height:48px;padding:0 16px;border-radius:14px;border:1px solid #C9CCD3;background:transparent;font-size:14.5px;font-weight:500;flex:1}
+  .done{margin-top:14px;padding:12px 14px;border-radius:12px;background:#EAF4EE;color:#245C3A;font-size:14px;font-weight:500}
+
+  .study{margin-top:14px;padding:16px;border:1px solid var(--line);border-radius:16px;background:var(--card)}
+  .study .j{font-size:12px;color:var(--muted)}
+  .study h2{margin:6px 0 10px;font-family:var(--serif);font-size:21px;line-height:1.2}
+  .grid{display:grid;grid-template-columns:96px minmax(0,1fr);row-gap:8px;column-gap:10px;font-size:14px;line-height:1.4}
+  .grid dt{font-weight:600;color:var(--muted)} .grid dd{margin:0}
+  .why{margin:12px 0 0;padding-top:10px;border-top:1px solid var(--line);font-size:14px;line-height:1.45}
+  .study .row{margin-top:8px;gap:16px}
+  .textlink{display:inline-flex;align-items:center;gap:6px;min-height:40px;border:0;background:transparent;padding:0;color:var(--accent);font-size:14px;font-weight:500;text-decoration:none}
+
+  .opp{display:block;margin-top:10px;padding:14px 16px;border:1px solid var(--line);border-radius:16px;background:var(--card);color:var(--ink);text-decoration:none}
+  .opp .top{display:flex;justify-content:space-between;gap:8px;font-size:12px;font-weight:600;color:var(--muted)}
+  .opp .tt{display:block;margin-top:4px;font-family:var(--serif);font-size:18px;font-weight:600}
+  .opp .dd{display:block;margin-top:4px;font-size:14px;line-height:1.4;color:var(--body)}
+  .section-label{margin:18px 0 0;font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+
+  nav.tabs{position:fixed;left:50%;transform:translateX(-50%);bottom:0;width:100%;max-width:560px;
+           padding:8px 6px calc(var(--sb) + 10px);background:rgba(251,251,249,.96);border-top:1px solid var(--line);
+           display:grid;grid-template-columns:repeat(5,minmax(0,1fr));z-index:5}
+  nav.tabs button{display:flex;flex-direction:column;align-items:center;gap:3px;border:0;background:transparent;color:var(--muted);font-size:11px;font-weight:500;min-height:48px}
+  nav.tabs button[aria-current="page"]{color:var(--accent);font-weight:600}
+
+  /* conversa */
+  .sheet-bg{position:fixed;inset:0;background:rgba(16,20,24,.45);z-index:10;display:flex;align-items:flex-end;justify-content:center}
+  .sheet{width:100%;max-width:560px;height:min(88vh,760px);background:var(--bg);border-radius:22px 22px 0 0;display:flex;flex-direction:column;
+         padding-bottom:var(--sb);box-shadow:0 -10px 40px rgba(0,0,0,.18)}
+  .sheet-h{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:14px 14px 10px 20px;border-bottom:1px solid var(--line)}
+  .sheet-h .ctx{min-width:0}
+  .sheet-h .ctx span{display:block;font-size:12px;color:var(--muted)}
+  .sheet-h .ctx b{display:block;font-size:15px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .msgs{flex:1;overflow-y:auto;padding:16px 18px;display:flex;flex-direction:column;gap:12px}
+  .m{max-width:88%;padding:10px 14px;border-radius:16px;font-size:15px;line-height:1.5;white-space:pre-wrap;word-wrap:break-word}
+  .m.u{align-self:flex-end;background:var(--ink);color:var(--bg);border-bottom-right-radius:6px}
+  .m.a{align-self:flex-start;background:var(--soft);border-bottom-left-radius:6px}
+  .m.err{background:var(--warn-soft);color:var(--warn)}
+  .sugs{display:flex;flex-wrap:wrap;gap:8px;padding:0 18px 10px}
+  .sugs button{min-height:36px;padding:0 12px;border-radius:18px;border:1px solid var(--line);background:var(--card);font-size:13.5px}
+  form.composer{display:flex;gap:8px;padding:10px 14px 14px;border-top:1px solid var(--line)}
+  form.composer label{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+  form.composer textarea{flex:1;min-width:0;min-height:46px;max-height:120px;resize:none;padding:12px 14px;border:1px solid #C9CCD3;border-radius:14px;background:var(--card);font:15px/1.4 var(--sans);color:var(--ink)}
+  form.composer button{width:46px;height:46px;flex:none;border:0;border-radius:14px;background:var(--ink);color:var(--bg);display:grid;place-items:center}
+  form.composer button:disabled{opacity:.4}
+  .unavail{padding:20px;font-size:14px;color:var(--muted)}
+  .art{width:100%;max-height:340px;object-fit:contain;border-radius:16px;background:#1E2228;display:block}
+  .settings-link{margin-top:14px;align-self:center;background:none;border:0;color:var(--night-muted);font-size:13px;text-decoration:underline;min-height:40px}
+  .note{font-size:13.5px;line-height:1.5;color:var(--muted);margin:0}
+  .field{display:flex;flex-direction:column;gap:6px;margin-top:12px}
+  .field label{font-size:13px;font-weight:600;color:var(--muted)}
+  .field input{height:46px;padding:0 14px;border:1px solid #C9CCD3;border-radius:12px;background:var(--card);font:15px var(--sans);color:var(--ink)}
+  .toast{position:fixed;left:50%;bottom:calc(var(--sb) + 96px);transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:10px 16px;border-radius:12px;font-size:14px;z-index:20;max-width:90vw;text-align:center}
+
+  @media (min-width:700px){ .poem{border-radius:0} }
+</style>
+</head>
+<body>
+<div class="col" id="app"><p style="padding:40px;color:#5B5E66">A carregar…</p></div>
+
+<script>
+(() => {
+  "use strict";
+
+  // ---------- utilitários ----------
+  const $ = (s, r = document) => r.querySelector(s);
+  const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[c]));
+  const safeUrl = u => { try { const x = new URL(u); return /^https?:$/.test(x.protocol) ? x.href : null; } catch { return null; } };
+  const ico = {
+    chat: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/></svg>',
+    out: '<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg>',
+    back: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg>',
+    arrow: '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>',
+    send: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>',
+    close: '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>',
+    feather: '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 4C12 4 6 9 5 19"/><path d="M20 4c0 7-4 11-11 12"/><path d="M4 20l5-5"/></svg>',
+    speaker: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5L6 9H3v6h3l5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg>',
+    up: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg>',
+    down: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M6 13l6 6 6-6"/></svg>'
+  };
+  const TABS = [
+    { id: "noticias", label: "Notícias", svg: '<rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 8h10M7 12h10M7 16h6"/>' },
+    { id: "obra", label: "Obra", svg: '<rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 16l5-5 4 4 3-3 6 6"/><circle cx="15.5" cy="8.5" r="1.5"/>' },
+    { id: "aprende", label: "Aprende", svg: '<path d="M9 18h6M10 21h4"/><path d="M12 3a6 6 0 0 0-3.5 10.9c.6.5 1 1.2 1 2.1h5c0-.9.4-1.6 1-2.1A6 6 0 0 0 12 3z"/>' },
+    { id: "ciencia", label: "Ciência", svg: '<path d="M9 3h6M10 3v6l-5 9a2 2 0 0 0 1.8 3h10.4a2 2 0 0 0 1.8-3l-5-9V3"/><path d="M7.5 15h9"/>' },
+    { id: "radar", label: "Radar", svg: '<circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><path d="M12 12l6-6"/>' }
+  ];
+
+  // ---------- estado ----------
+  let NEWS = null, WEEK = null, SCI = null;   // ficheiros de dados
+  let ED = null;                 // vista composta para hoje
+  // Opção B: a conversa abre a app do Claude; a leitura em voz alta usa a voz do sistema.
+  const sample = true;
+  const tts = ("speechSynthesis" in window) ? window.speechSynthesis : null;
+  const REPO = "ivofr17-debug/ic";
+  const isApple = /iPhone|iPad|iPod/.test(navigator.userAgent) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+  const isMobile = isApple || /Android/.test(navigator.userAgent);
+
+  const todayISO = () => new Date().toLocaleDateString("sv-SE", { timeZone: "Europe/Lisbon" });
+  const daysBetween = (a, b) => Math.round((new Date(b + "T12:00:00") - new Date(a + "T12:00:00")) / 864e5);
+
+  function compose() {
+    const t = todayISO();
+    const poems = (WEEK && WEEK.poems) || [];
+    const pIdx = poems.length ? ((daysBetween(WEEK.week_of, t) % poems.length) + poems.length) % poems.length : 0;
+    const obras = (WEEK && WEEK.obras) || [];
+    const obra = obras.find(o => progress.obraAberta[o.id] === t) || obras.find(o => !progress.obraAberta[o.id]) || null;
+    const aps = (WEEK && WEEK.aprende) || [];
+    const aprende = aps.find(a => progress.aprendeFeito[a.id] === t) || aps.find(a => !progress.aprendeFeito[a.id]) || null;
+    const aprendeNext = aprende ? aps.find(a => a !== aprende && !progress.aprendeFeito[a.id]) || null : null;
+    const items = (NEWS && NEWS.items) || [];
+    return {
+      date: t, newsDate: NEWS ? NEWS.date : t, note: NEWS && NEWS.note,
+      edition: "manhã", tardeCount: items.filter(n => n.edicao === "tarde").length,
+      poem: poems[pIdx] || { title: "", author: "", source: "", text: "O poema de hoje ainda não chegou." },
+      news: items, obra, aprende, aprendeNext,
+      ciencia: (SCI && SCI.items) || [], cienciaUpdated: SCI && SCI.updated,
+      radar: (WEEK && WEEK.radar) || { updated: "—", urgent: [], items: [] }
+    };
+  }
+  let progress = { obraAberta: {}, aprendeFeito: {} };
+  const feedback = {};           // id da notícia -> 1 | -1
+
+  // guarda local de recurso (se a base de dados não estiver disponível)
+  const local = {
+    get(k, d) { try { const v = localStorage.getItem("ic:" + k); return v ? JSON.parse(v) : d; } catch { return d; } },
+    set(k, v) { try { localStorage.setItem("ic:" + k, JSON.stringify(v)); } catch {} }
+  };
+
+  // ---------- estado (feedback + progresso) ----------
+  // Fica sempre guardado no telemóvel. Se houver uma chave do GitHub, é também
+  // gravado em state.json no repositório, onde as tarefas diárias o leem.
+  const token = () => local.get("gh_token", "");
+  let remoteSha = null, saveTimer = null;
+  const fbMeta = local.get("feedback_meta", {});   // id -> {valor, tema, titulo, edicao}
+
+  const b64 = s => btoa(unescape(encodeURIComponent(s)));
+  const unb64 = s => decodeURIComponent(escape(atob(s.replace(/\n/g, ""))));
+
+  async function ghGetState() {
+    const r = await fetch(`https://api.github.com/repos/${REPO}/contents/state.json?ref=main`, {
+      headers: { Authorization: "Bearer " + token(), Accept: "application/vnd.github+json" }, cache: "no-store" });
+    if (!r.ok) throw new Error("GitHub " + r.status);
+    const j = await r.json(); remoteSha = j.sha; return JSON.parse(unb64(j.content));
+  }
+
+  function mergeState(s) {
+    if (!s) return;
+    const p = s.progress || {};
+    progress.obraAberta = { ...(p.obraAberta || {}), ...progress.obraAberta };
+    progress.aprendeFeito = { ...(p.aprendeFeito || {}), ...progress.aprendeFeito };
+    Object.entries(s.feedback || {}).forEach(([id, v]) => { if (!(id in fbMeta) && v && typeof v.valor === "number") { fbMeta[id] = v; feedback[id] = v.valor; } });
+  }
+
+  async function initCaps() {
+    progress = local.get("progress", progress);
+    Object.entries(fbMeta).forEach(([id, v]) => feedback[id] = v.valor);
+    try {
+      if (token()) mergeState(await ghGetState());
+      else mergeState(await fetch("state.json", { cache: "no-store" }).then(r => r.ok ? r.json() : null));
+    } catch (e) { console.warn("estado", e); }
+    render();
+  }
+
+  function queueRemoteSave() {
+    if (!token()) return;
+    clearTimeout(saveTimer);
+    saveTimer = setTimeout(async () => {
+      const body = JSON.stringify({ feedback: fbMeta, progress }, null, 2) + "\n";
+      for (let attempt = 0; attempt < 2; attempt++) {
+        try {
+          if (!remoteSha) await ghGetState();
+          const r = await fetch(`https://api.github.com/repos/${REPO}/contents/state.json`, {
+            method: "PUT",
+            headers: { Authorization: "Bearer " + token(), Accept: "application/vnd.github+json", "Content-Type": "application/json" },
+            body: JSON.stringify({ message: "estado: feedback e progresso", content: b64(body), sha: remoteSha, branch: "main" })
+          });
+          if (r.ok) { remoteSha = (await r.json()).content.sha; return; }
+          if (r.status === 409 || r.status === 422) { remoteSha = null; continue; }
+          if (r.status === 401 || r.status === 403) { toast("A chave do GitHub não foi aceite. Revê-a nas definições."); return; }
+          return;
+        } catch (e) { console.warn(e); return; }
+      }
+    }, 1500);
+  }
+
+  async function saveProgress() { local.set("progress", progress); queueRemoteSave(); }
+  async function saveFeedback(item, valor) {
+    if (valor === 0) { delete feedback[item.id]; delete fbMeta[item.id]; }
+    else { feedback[item.id] = valor; fbMeta[item.id] = { valor, tema: item.tema, titulo: item.title, edicao: ED.date }; }
+    local.set("feedback_meta", fbMeta);
+    queueRemoteSave();
+  }
+
+  function toast(msg) {
+    const t = document.createElement("div"); t.className = "toast"; t.textContent = msg;
+    document.body.appendChild(t); setTimeout(() => t.remove(), 3500);
+  }
+
+  // ---------- rotas (#noticias, #obra, …, #n-<id>) ----------
+  const route = () => (location.hash || "").replace(/^#/, "") || "poema";
+  window.addEventListener("hashchange", () => { render(); window.scrollTo(0, 0); });
+  const go = r => { if (route() === r) render(); else location.hash = r; };
+
+  const today = () => new Date(ED.date + "T12:00:00").toLocaleDateString("pt-PT", { weekday: "long", day: "numeric", month: "long" });
+
+  // ---------- desenho ----------
+  const app = $("#app");
+
+  function render() {
+    if (!NEWS && !WEEK) return;
+    ED = compose();
+    const r = route();
+    let html = "";
+    if (r === "poema") html = viewPoem();
+    else if (r === "noticias") html = viewNews();
+    else if (r.startsWith("n-")) html = viewNewsItem(r);
+    else if (r === "obra") html = viewObra();
+    else if (r === "aprende") html = viewAprende();
+    else if (r === "ciencia") html = viewCiencia();
+    else if (r === "radar") html = viewRadar();
+    else html = viewPoem();
+    const tab = r.startsWith("n-") ? "noticias" : r;
+    app.innerHTML = html + (r === "poema" ? "" : tabsHtml(tab));
+    bind();
+  }
+
+  function head(label) {
+    return `<div class="head"><span class="eyebrow">${esc(label)}</span>
+      <button class="iconbtn" data-go="poema" aria-label="Poema do dia">${ico.feather}</button></div>`;
+  }
+  const askBtn = (key, label = "Perguntar ao Claude") => sample
+    ? `<button class="ask" data-ask="${esc(key)}">${ico.chat} ${esc(label)}</button>` : "";
+
+  function viewPoem() {
+    const p = ED.poem;
+    return `<section class="poem">
+      <div class="poem-top"><span class="brand">IC</span><span class="date">${esc(today())}</span></div>
+      <div class="poem-mid">
+        <span class="eyebrow">Poema do dia</span>
+        <p class="poem-text">${esc(p.text)}</p>
+        <p class="poem-by">${esc(p.author)} · ${esc(p.title)} · ${esc(p.source)}</p>
+        <div class="row">
+          ${sample ? `<button class="ghost" data-ask="poema">${ico.chat} Conversar sobre o poema</button>` : ""}
+          ${tts ? `<button class="ghost" id="listen">${ico.speaker} <span>Ouvir</span></button>` : ""}
+        </div>
+      </div>
+      <button class="enter" data-go="noticias"><span><b>Entrar</b><small>${ED.news.length} notícias${ED.tardeCount ? ` · ${ED.tardeCount} novas ao fim do dia` : ""}</small></span>${ico.arrow}</button>
+      <button class="settings-link" id="openSettings">Definições</button>
+    </section>`;
+  }
+
+  function viewNews() {
+    const stale = ED.newsDate !== ED.date;
+    const tarde = ED.news.filter(n => n.edicao === "tarde"), manha = ED.news.filter(n => n.edicao !== "tarde");
+    const li = n => `<li><button data-go="${esc(n.id)}"><span class="t">${esc(n.title)}</span><span class="s">${esc(n.summary)}</span></button></li>`;
+    return `<main class="screen">${head(stale ? "Edição de " + ED.newsDate : (tarde.length ? "Edição de hoje" : "Edição da manhã"))}
+      <h1>Notícias</h1><p class="sub">${ED.news.length} notícias${tarde.length ? "" : " · atualiza às 19h"}</p>
+      ${ED.note ? `<p class="demo">${esc(ED.note)}</p>` : ""}
+      ${tarde.length ? `<p class="section-label">Fim do dia</p><ul class="news">${tarde.map(li).join("")}</ul><p class="section-label">Manhã</p>` : ""}
+      <ul class="news">${manha.map(li).join("")}</ul>
+      <p class="end">${tarde.length ? "Fim da edição de hoje" : "Fim da edição da manhã"}</p></main>`;
+  }
+
+  function viewNewsItem(id) {
+    const n = ED.news.find(x => x.id === id);
+    if (!n) return viewNews();
+    const v = feedback[n.id] || 0;
+    const links = (n.sources || []).map(s => { const u = safeUrl(s.url); return u ? `<a href="${esc(u)}" target="_blank" rel="noopener">Ler em ${esc(s.name)} ${ico.out}</a>` : ""; }).join("");
+    return `<main class="screen">
+      <button class="back" data-go="noticias">${ico.back} Notícias</button>
+      <h1 style="font-size:28px;margin-top:6px">${esc(n.title)}</h1>
+      <p class="meta">Fontes: ${esc((n.sources || []).map(s => s.name).join(", "))}</p>
+      <p class="lead">${esc(n.body)}</p>
+      <div class="box"><span class="eyebrow">Contexto</span><p>${esc(n.context)}</p></div>
+      <div class="links">${links}</div>
+      <div class="fb" role="group" aria-label="Este tipo de notícia">
+        <button class="chip" data-fb="1" aria-pressed="${v === 1}">${ico.up} Mais disto</button>
+        <button class="chip" data-fb="-1" aria-pressed="${v === -1}">${ico.down} Menos disto</button>
+      </div>
+      ${askBtn("news:" + n.id)}
+    </main>`;
+  }
+
+  function viewObra() {
+    const o = ED.obra;
+    if (!o) return `<main class="screen">${head("Obra do dia")}<h1>Por agora, é tudo</h1>
+      <p class="lead">Já abriste todas as obras desta semana. As próximas chegam no domingo.</p></main>`;
+    const open = !!progress.obraAberta[o.id];
+    const link = o.link && safeUrl(o.link.url);
+    return `<main class="screen">${head("Obra do dia")}
+      ${o.image && safeUrl(o.image)
+        ? `<img class="art" src="${esc(safeUrl(o.image))}" alt="${esc(o.title)}, ${esc(o.author)}" loading="lazy">`
+        : `<div class="img-ph" aria-hidden="true">${esc(o.title.split(" ").slice(-1)[0])}</div>`}
+      ${link ? `<div class="links"><a href="${esc(link)}" target="_blank" rel="noopener">${esc(o.link.label || "Ver a obra")} ${ico.out}</a></div>` : ""}
+      <p style="margin:14px 0 0"><span class="kind">${esc(o.kind)}</span></p>
+      <h1 style="font-size:28px;margin-top:8px">${esc(o.title)}</h1>
+      <p class="sub">${esc(o.author)} · ${esc(o.year)}</p>
+      <p class="lead">${esc(o.teaser)}</p>
+      ${open
+        ? `<div class="box"><span class="eyebrow">Contexto alargado</span>${o.context.map(p => `<p>${esc(p)}</p>`).join("")}</div>
+           ${askBtn("obra", "Conversar sobre esta obra")}
+           <p class="done">Aberta. ${(WEEK.obras || []).some(x => x !== o && !progress.obraAberta[x.id]) ? "A próxima obra chega amanhã." : "A próxima obra chega no domingo."}</p>`
+        : `<div class="row" style="margin-top:16px"><button class="primary" id="openObra">Abrir contexto alargado</button></div>
+           <p class="end">A próxima obra só chega quando abrires esta.</p>`}
+    </main>`;
+  }
+
+  function viewAprende() {
+    const a = ED.aprende;
+    if (!a) return `<main class="screen">${head("Aprende")}<h1>Por agora, é tudo</h1>
+      <p class="lead">Já fizeste as lições desta semana. As próximas chegam no domingo.</p></main>`;
+    const done = !!progress.aprendeFeito[a.id];
+    a.next = ED.aprendeNext ? "Próxima: " + ED.aprendeNext.title : "A próxima lição chega no domingo.";
+    return `<main class="screen">${head("Aprende · " + a.minutes + " min")}
+      ${a.serie ? `<p style="margin:6px 0 0"><span class="kind">Série: ${esc(a.serie)} · ${a.part} de ${a.total}</span></p>` : ""}
+      <h1 style="font-size:28px;margin-top:10px">${esc(a.title)}</h1>
+      <p class="lead">${esc(a.body)}</p>
+      ${a.example ? `<div class="box"><span class="eyebrow">${esc(a.example_label || "Exemplo")}</span><p>${esc(a.example)}</p></div>` : ""}
+      ${a.note ? `<p class="lead" style="font-size:15px;color:var(--body)">${esc(a.note)}</p>` : ""}
+      <div class="row" style="margin-top:16px">
+        ${sample ? `<button class="secondary" data-ask="aprende">${ico.chat} Explica melhor</button>` : ""}
+        ${done ? "" : `<button class="primary" id="percebi">Percebi</button>`}
+      </div>
+      ${done ? `<p class="done">Feito. ${ED.aprendeNext ? "A próxima lição chega amanhã." : esc(a.next)}</p>` : `<p class="end">${esc(a.next)}</p>`}
+    </main>`;
+  }
+
+  function viewCiencia() {
+    return `<main class="screen">${head("Ciência · atualizada " + (ED.cienciaUpdated || ""))}
+      <h1>Ciência</h1><p class="sub">Medicina, resumida no mesmo formato</p>
+      ${ED.ciencia.map(c => { const u = safeUrl(c.url); return `<article class="study">
+        <span class="j">${esc(c.journal)} · ${esc(c.date)}</span>
+        <h2>${esc(c.title)}</h2>
+        <dl class="grid">
+          <dt>Pergunta</dt><dd>${esc(c.pergunta)}</dd>
+          <dt>Desenho</dt><dd>${esc(c.desenho)}</dd>
+          <dt>Participantes</dt><dd>${esc(c.participantes)}</dd>
+          <dt>Resultado</dt><dd>${esc(c.resultado)}</dd>
+          <dt>Limitação</dt><dd>${esc(c.limitacao)}</dd>
+        </dl>
+        <p class="why"><strong>Porque importa:</strong> ${esc(c.importa)}</p>
+        <div class="row">
+          ${sample ? `<button class="textlink" data-ask="ciencia:${esc(c.id)}">${ico.chat} Explicar ao meu nível</button>` : ""}
+          ${u ? `<a class="textlink" href="${esc(u)}" target="_blank" rel="noopener">Revista ${ico.out}</a>` : ""}
+        </div></article>`; }).join("")}
+    </main>`;
+  }
+
+  function viewRadar() {
+    const R = ED.radar;
+    const card = i => { const u = safeUrl(i.url); return `<a class="opp" ${u ? `href="${esc(u)}" target="_blank" rel="noopener"` : ""}>
+      <span class="top"><span>${esc(i.kind)}</span><span>${esc(i.status)}</span></span>
+      <span class="tt">${esc(i.title)}</span><span class="dd">${esc(i.detail)}</span></a>`; };
+    return `<main class="screen">${head("Atualizado " + R.updated)}
+      <h1>Radar</h1><p class="sub">Bolsas, estágios e oportunidades</p>
+      ${R.urgent.length ? `<p class="section-label" style="color:var(--warn)">Prazo a chegar</p>${R.urgent.map(card).join("")}` : ""}
+      <p class="section-label">No radar</p>${R.items.map(card).join("")}
+      ${sample ? `<button class="ask" data-ask="radar">${ico.chat} Ajuda-me a preparar uma candidatura</button>` : ""}
+    </main>`;
+  }
+
+  function tabsHtml(cur) {
+    return `<nav class="tabs" aria-label="Secções">${TABS.map(t => `<button data-go="${t.id}" ${t.id === cur ? 'aria-current="page"' : ""}>
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${t.svg}</svg>${t.label}</button>`).join("")}</nav>`;
+  }
+
+  function bind() {
+    app.querySelectorAll("[data-go]").forEach(el => el.addEventListener("click", () => go(el.dataset.go)));
+    app.querySelectorAll("[data-ask]").forEach(el => el.addEventListener("click", () => openChat(el.dataset.ask)));
+    app.querySelectorAll("[data-fb]").forEach(el => el.addEventListener("click", async () => {
+      const n = ED.news.find(x => x.id === route());
+      const val = Number(el.dataset.fb);
+      await saveFeedback(n, feedback[n.id] === val ? 0 : val);
+      render();
+    }));
+    const ob = $("#openObra"); if (ob) ob.addEventListener("click", async () => { progress.obraAberta[ED.obra.id] = todayISO(); render(); await saveProgress(); });
+    const pc = $("#percebi"); if (pc) pc.addEventListener("click", async () => { progress.aprendeFeito[ED.aprende.id] = todayISO(); render(); await saveProgress(); });
+    const ls = $("#listen"); if (ls) ls.addEventListener("click", listen);
+    const st = $("#openSettings"); if (st) st.addEventListener("click", openSettings);
+  }
+
+  // ---------- ouvir o poema (voz do sistema) ----------
+  function listen() {
+    const label = $("#listen span");
+    if (tts.speaking) { tts.cancel(); if (label) label.textContent = "Ouvir"; return; }
+    const u = new SpeechSynthesisUtterance(ED.poem.text.replace(/\n\n/g, ".\n"));
+    u.lang = "pt-PT"; u.rate = 0.92;
+    const v = tts.getVoices().find(x => x.lang === "pt-PT") || tts.getVoices().find(x => /^pt/.test(x.lang));
+    if (v) u.voice = v;
+    u.onend = u.onerror = () => { const l2 = $("#listen span"); if (l2) l2.textContent = "Ouvir"; };
+    if (label) label.textContent = "Parar";
+    tts.speak(u);
+  }
+
+  // ---------- definições: chave do GitHub para gravar o feedback ----------
+  function openSettings() {
+    const bg = document.createElement("div");
+    bg.className = "sheet-bg"; bg.id = "sheet";
+    bg.innerHTML = `<div class="sheet" role="dialog" aria-modal="true" aria-label="Definições" style="height:auto;padding:0 0 calc(var(--sb) + 18px)">
+      <div class="sheet-h"><div class="ctx"><span>IC</span><b>Definições</b></div>
+        <button class="iconbtn" id="closeChat" aria-label="Fechar">${ico.close}</button></div>
+      <div style="padding:16px 20px;display:flex;flex-direction:column;gap:10px">
+        <p class="note">Sem chave, o teu "Mais/Menos disto" e o progresso ficam só neste aparelho. Com uma chave do GitHub (só para o repositório <b>ic</b>, permissão <i>Contents: read and write</i>), ficam no repositório e as tarefas diárias usam-nos para escolher o que te mostram.</p>
+        <p class="note">A chave fica guardada apenas neste aparelho.</p>
+        <form id="tokForm" class="field"><label for="tok">Chave do GitHub</label>
+          <input id="tok" type="password" autocomplete="off" placeholder="github_pat_…" value="${esc(token())}">
+          <div class="row" style="margin-top:8px"><button class="primary" type="submit">Guardar</button>
+          ${token() ? `<button class="secondary" type="button" id="tokDel">Remover</button>` : ""}</div></form>
+        <p class="note" id="tokMsg"></p>
+      </div></div>`;
+    document.body.appendChild(bg);
+    bg.addEventListener("click", e => { if (e.target === bg) closeChat(); });
+    $("#closeChat").addEventListener("click", closeChat);
+    document.addEventListener("keydown", escClose);
+    const del = $("#tokDel"); if (del) del.addEventListener("click", () => { local.set("gh_token", ""); closeChat(); toast("Chave removida."); });
+    $("#tokForm").addEventListener("submit", async e => {
+      e.preventDefault();
+      const v = $("#tok").value.trim(); const msg = $("#tokMsg");
+      local.set("gh_token", v); remoteSha = null;
+      if (!v) { msg.textContent = "Sem chave guardada."; return; }
+      msg.textContent = "A testar…";
+      try { mergeState(await ghGetState()); queueRemoteSave(); msg.textContent = "Ligado. O teu feedback passa a ser guardado no repositório."; }
+      catch (err) { msg.textContent = "Não funcionou (" + err.message + "). Confirma que a chave tem acesso ao repositório ic com Contents: read and write."; }
+    });
+  }
+
+  // ---------- conversa com o Claude ----------
+  function ctxFor(key) {
+    if (key === "poema") { const p = ED.poem; return { kind: "Poema", title: `${p.title} — ${p.author}`, text: `${p.title}, de ${p.author} (${p.source}):\n${p.text}`, sugs: ["O que quer dizer este poema?", "Explica a forma e o ritmo", "Quem foi " + p.author.replace(/\s*\(.*\)/, "") + "?"] }; }
+    if (key.startsWith("news:")) { const n = ED.news.find(x => x.id === key.slice(5)); return { kind: "Notícia", title: n.title, text: `${n.title}\n${n.body}\nContexto: ${n.context}`, sugs: ["Explica-me o contexto", "Porque é que isto importa?", "Quais são os vários lados?"] }; }
+    if (key === "obra") { const o = ED.obra; return { kind: "Obra", title: o.title, text: `${o.kind}: ${o.title}, ${o.author} (${o.year}). ${o.teaser}\n${o.context.join("\n")}`, sugs: [o.kind === "Livro" ? "Vale a pena ler? Porquê?" : "O que devo reparar nisto?", "Que obras parecidas me sugeres?", "Fala-me do autor e da época"] }; }
+    if (key === "aprende") { const a = ED.aprende; return { kind: "Aprende", title: a.title, text: `${a.title}\n${a.body}\n${a.example}\n${a.note}`, sugs: ["Explica com outro exemplo", "Como se calcula a parcela a abater?", "Testa-me com uma pergunta"] }; }
+    if (key.startsWith("ciencia:")) { const c = ED.ciencia.find(x => x.id === key.slice(8)); return { kind: "Ciência", title: c.title, text: `${c.journal}, ${c.date}: ${c.title}\nPergunta: ${c.pergunta}\nDesenho: ${c.desenho}\nParticipantes: ${c.participantes}\nResultado: ${c.resultado}\nLimitação: ${c.limitacao}`, sugs: ["Explica ao nível do 2.º ano", "O que é um ensaio de não-inferioridade?", "Como leio estes resultados?"] }; }
+    if (key === "radar") return { kind: "Radar", title: "Oportunidades", text: ED.radar.items.map(i => `${i.title} (${i.kind}) — ${i.status}. ${i.detail}`).join("\n"), sugs: ["Por qual devo começar?", "O que costuma pedir uma candidatura?", "Como escrevo uma carta de motivação?"] };
+    return { kind: "", title: "", text: "", sugs: [] };
+  }
+
+  const SYSTEM = "Estou a ler isto na IC, a minha app de informação diária (sou estudante de medicina do 2.º ano em Lisboa). Responde em português de Portugal, de forma clara e direta. Se a resposta depender de factos atuais, confirma-os antes.";
+
+  let chat = null; // { key, ctx }
+
+  function openChat(key) {
+    chat = { key, ctx: ctxFor(key) };
+    const bg = document.createElement("div");
+    bg.className = "sheet-bg"; bg.id = "sheet";
+    bg.innerHTML = `<div class="sheet" role="dialog" aria-modal="true" aria-label="Conversa com o Claude">
+      <div class="sheet-h"><div class="ctx"><span>${esc(chat.ctx.kind)}</span><b>${esc(chat.ctx.title)}</b></div>
+        <button class="iconbtn" id="closeChat" aria-label="Fechar conversa">${ico.close}</button></div>
+      <div class="msgs" id="msgs"><p class="sub">Escolhe uma pergunta ou escreve a tua. Abre ${isMobile ? "a app do Claude" : "o Claude Desktop"} com a pergunta e o contexto já escritos${isMobile ? " (ficam também copiados: se não aparecerem, cola)" : ""}.</p></div>
+      <div class="sugs" id="sugs">${chat.ctx.sugs.map(s => `<button type="button">${esc(s)}</button>`).join("")}</div>
+      <form class="composer" id="composer"><label for="q">A tua pergunta</label>
+        <textarea id="q" rows="1" placeholder="Escreve a tua pergunta…"></textarea>
+        <button type="submit" id="sendBtn" aria-label="Enviar">${ico.send}</button></form>
+    </div>`;
+    document.body.appendChild(bg);
+    document.body.style.overflow = "hidden";
+    bg.addEventListener("click", e => { if (e.target === bg) closeChat(); });
+    $("#closeChat").addEventListener("click", closeChat);
+    $("#sugs").querySelectorAll("button").forEach(b => b.addEventListener("click", () => send(b.textContent)));
+    const q = $("#q");
+    $("#composer").addEventListener("submit", e => { e.preventDefault(); send(q.value); });
+    q.addEventListener("keydown", e => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); send(q.value); } });
+    q.addEventListener("input", () => { q.style.height = "auto"; q.style.height = Math.min(q.scrollHeight, 120) + "px"; });
+    document.addEventListener("keydown", escClose);
+    setTimeout(() => q.focus(), 50);
+  }
+  function escClose(e) { if (e.key === "Escape") closeChat(); }
+  function closeChat() {
+    chat = null; const s = $("#sheet"); if (s) s.remove();
+    document.body.style.overflow = ""; document.removeEventListener("keydown", escClose);
+  }
+
+  // Abre o Claude com a pergunta e o contexto: no PC a app de desktop (claude://),
+  // no telemóvel a app do Claude através do link claude.ai (e copia o texto, por precaução).
+  async function send(text) {
+    text = (text || "").trim();
+    if (!chat || !text) return;
+    const prompt = `${SYSTEM}\n\n${chat.ctx.kind}:\n${chat.ctx.text}\n\nA minha pergunta: ${text}`.slice(0, 12000);
+    const q = encodeURIComponent(prompt);
+    if (isMobile) {
+      try { await navigator.clipboard.writeText(prompt); } catch {}
+      window.location.href = "https://claude.ai/new?q=" + q;
+    } else {
+      window.location.href = "claude://claude.ai/new?q=" + q;
+      setTimeout(() => toast("Se o Claude Desktop não abriu, confirma que está instalado."), 1200);
+    }
+    closeChat();
+  }
+
+  // ---------- arranque ----------
+  const getJSON = f => fetch("data/" + f, { cache: "no-store" }).then(r => r.ok ? r.json() : null).catch(() => null);
+  Promise.all([getJSON("news.json"), getJSON("weekly.json"), getJSON("ciencia.json")])
+    .then(([n, w, c]) => {
+      NEWS = n; WEEK = w; SCI = c;
+      if (!n && !w) throw new Error("sem dados");
+      render(); initCaps();
+    })
+    .catch(() => { app.innerHTML = '<p style="padding:40px;color:#5B5E66">Não foi possível carregar a edição de hoje.</p>'; });
+
+  if ("serviceWorker" in navigator && location.protocol === "https:") navigator.serviceWorker.register("sw.js").catch(() => {});
+})();
+</script>
+</body>
+</html>
