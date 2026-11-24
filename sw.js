@@ -1,5 +1,5 @@
 // Service worker da IC: a "casca" abre logo; os dados vêm sempre da rede primeiro.
-const VERSION = "ic-b1";
+const VERSION = "ic-b2";
 const SHELL = ["./", "index.html", "manifest.webmanifest", "icons/apple-touch-icon.png", "icons/icon-192.png", "icons/icon-512.png"];
 
 self.addEventListener("install", e => {

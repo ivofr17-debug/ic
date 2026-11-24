@@ -185,10 +185,12 @@
     const poems = (WEEK && WEEK.poems) || [];
     const pIdx = poems.length ? ((daysBetween(WEEK.week_of, t) % poems.length) + poems.length) % poems.length : 0;
     const obras = (WEEK && WEEK.obras) || [];
-    const obra = obras.find(o => progress.obraAberta[o.id] === t) || obras.find(o => !progress.obraAberta[o.id]) || null;
+    const dayIdx = (n) => n ? ((daysBetween(WEEK.week_of, t) % n) + n) % n : 0;
+    const obra = obras[dayIdx(obras.length)] || null;
     const aps = (WEEK && WEEK.aprende) || [];
-    const aprende = aps.find(a => progress.aprendeFeito[a.id] === t) || aps.find(a => !progress.aprendeFeito[a.id]) || null;
-    const aprendeNext = aprende ? aps.find(a => a !== aprende && !progress.aprendeFeito[a.id]) || null : null;
+    const aIdx = dayIdx(aps.length);
+    const aprende = aps[aIdx] || null;
+    const aprendeNext = aIdx + 1 < aps.length ? aps[aIdx + 1] : null;
     const items = (NEWS && NEWS.items) || [];
     return {
       date: t, newsDate: NEWS ? NEWS.date : t, note: NEWS && NEWS.note,
@@ -366,7 +368,7 @@
   function viewObra() {
     const o = ED.obra;
     if (!o) return `<main class="screen">${head("Obra do dia")}<h1>Por agora, é tudo</h1>
-      <p class="lead">Já abriste todas as obras desta semana. As próximas chegam no domingo.</p></main>`;
+      <p class="lead">A obra de hoje ainda não chegou.</p></main>`;
     const open = !!progress.obraAberta[o.id];
     const link = o.link && safeUrl(o.link.url);
     return `<main class="screen">${head("Obra do dia")}
@@ -381,18 +383,18 @@
       ${open
         ? `<div class="box"><span class="eyebrow">Contexto alargado</span>${o.context.map(p => `<p>${esc(p)}</p>`).join("")}</div>
            ${askBtn("obra", "Conversar sobre esta obra")}
-           <p class="done">Aberta. ${(WEEK.obras || []).some(x => x !== o && !progress.obraAberta[x.id]) ? "A próxima obra chega amanhã." : "A próxima obra chega no domingo."}</p>`
+           <p class="done">Aberta. Amanhã chega outra obra.</p>`
         : `<div class="row" style="margin-top:16px"><button class="primary" id="openObra">Abrir contexto alargado</button></div>
-           <p class="end">A próxima obra só chega quando abrires esta.</p>`}
+           <p class="end">Amanhã chega outra obra.</p>`}
     </main>`;
   }
 
   function viewAprende() {
     const a = ED.aprende;
     if (!a) return `<main class="screen">${head("Aprende")}<h1>Por agora, é tudo</h1>
-      <p class="lead">Já fizeste as lições desta semana. As próximas chegam no domingo.</p></main>`;
+      <p class="lead">A lição de hoje ainda não chegou.</p></main>`;
     const done = !!progress.aprendeFeito[a.id];
-    a.next = ED.aprendeNext ? "Próxima: " + ED.aprendeNext.title : "A próxima lição chega no domingo.";
+    a.next = ED.aprendeNext ? "Amanhã: " + ED.aprendeNext.title : "Amanhã chega uma lição nova.";
     return `<main class="screen">${head("Aprende · " + a.minutes + " min")}
       ${a.serie ? `<p style="margin:6px 0 0"><span class="kind">Série: ${esc(a.serie)} · ${a.part} de ${a.total}</span></p>` : ""}
       <h1 style="font-size:28px;margin-top:10px">${esc(a.title)}</h1>
@@ -403,7 +405,7 @@
         ${sample ? `<button class="secondary" data-ask="aprende">${ico.chat} Explica melhor</button>` : ""}
         ${done ? "" : `<button class="primary" id="percebi">Percebi</button>`}
       </div>
-      ${done ? `<p class="done">Feito. ${ED.aprendeNext ? "A próxima lição chega amanhã." : esc(a.next)}</p>` : `<p class="end">${esc(a.next)}</p>`}
+      ${done ? `<p class="done">Feito. ${esc(a.next)}</p>` : `<p class="end">${esc(a.next)}</p>`}
     </main>`;
   }
 
