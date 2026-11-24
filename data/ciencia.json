@@ -1,44 +1,31 @@
 {
-  "updated": "23 nov",
+  "updated": "24 nov",
   "items": [
     {
-      "id": "c-paradigm4tb",
-      "journal": "NEJM",
-      "date": "nov 2026",
-      "title": "Tuberculose: dois novos regimes de 16 semanas avançam para a fase seguinte",
-      "pergunta": "Regimes com dois fármacos novos (ganfeborole e BTZ-043) conseguem encurtar o tratamento da TB pulmonar de 24 para 16 semanas?",
-      "desenho": "Ensaio de fase 2 em \"plataforma\" (vários regimes testados em paralelo contra o tratamento padrão)",
-      "participantes": "401 adultos com TB pulmonar sensível à rifampicina, em 14 centros de 5 países",
-      "resultado": "Na primeira fase foram testados 4 regimes com ganfeborole e 5 com BTZ-043; um de cada foi escolhido para continuar. Um regime com BTZ-043, bedaquilina, pirazinamida e moxifloxacina mostrou sinal de toxicidade hepática",
-      "limitacao": "Resultados de fase 2: ainda não provam que 16 semanas curam tão bem como 24",
-      "importa": "Encurtar o tratamento da TB facilita a adesão, que é um dos maiores problemas no controlo da doença.",
-      "url": "https://idw-online.de/de/news881217"
+      "id": "c-peachy-m",
+      "journal": "JAMA",
+      "date": "23 nov 2026",
+      "title": "Agitação grave em adolescentes na urgência: olanzapina não foi melhor do que droperidol",
+      "pergunta": "Em crianças e adolescentes com agitação aguda grave na urgência, uma injeção intramuscular de olanzapina seda melhor do que uma de droperidol (dois antipsicóticos usados para acalmar rapidamente)?",
+      "desenho": "Ensaio aleatorizado (os doentes são sorteados para um dos fármacos), multicêntrico e aberto (médicos e doentes sabiam o que foi dado), de superioridade, com dose única ajustada ao peso: 5 mg abaixo de 40 kg, 10 mg a partir de 40 kg (PEAChY-M)",
+      "participantes": "348 doentes dos 9 aos 17 anos (idade média 14,9; 62% raparigas) em 10 urgências da Austrália, entre 2021 e 2026; 176 receberam olanzapina e 172 droperidol",
+      "resultado": "Sedação eficaz a 1 hora sem precisar de mais fármacos: 53% com olanzapina vs 62% com droperidol (diferença ajustada −8,3%; IC 95% −18,6% a 2,1%; p = 0,12), ou seja, a olanzapina não foi superior. Houve um efeito adverso grave (apneia, uma paragem da respiração) no grupo da olanzapina",
+      "limitacao": "Ensaio aberto e dimensionado para detetar uma diferença de 15 pontos; uma diferença menor entre os fármacos não fica excluída",
+      "importa": "É o primeiro ensaio grande a comparar os dois fármacos em jovens, e mostra que cerca de 4 em cada 10 não ficam sedados com uma dose de qualquer deles.",
+      "url": "https://jamanetwork.com/journals/jama/fullarticle/2857277"
     },
     {
-      "id": "c-step-young",
-      "journal": "NEJM",
-      "date": "16 nov 2026",
-      "title": "Semaglutido reduz o IMC em crianças dos 6 aos 11 anos com obesidade",
-      "pergunta": "O semaglutido semanal, junto com aconselhamento de estilo de vida, funciona em crianças com obesidade antes da adolescência?",
-      "desenho": "Ensaio de fase 3, aleatorizado 2:1 contra placebo, 104 semanas (STEP Young)",
-      "participantes": "167 crianças dos 6 aos 11 anos (112 semaglutido, 55 placebo)",
-      "resultado": "Às 68 semanas, o IMC desceu 13,5% com semaglutido e subiu 2,7% com placebo; 79% vs 23% desceram de categoria de IMC",
-      "limitacao": "Efeitos gastrointestinais muito frequentes (diarreia 62% vs 35%; náuseas 58% vs 24%) e efeitos a longo prazo no crescimento desconhecidos",
-      "importa": "É o primeiro grande ensaio com um fármaco anti-obesidade abaixo dos 12 anos, uma idade em que hoje não há tratamento farmacológico aprovado.",
-      "url": "https://www.beckershospitalreview.com/glp-1s/1st-big-glp-1-trial-in-kids-under-12-delivers-double-digit-bmi-drop-6-notes/"
-    },
-    {
-      "id": "c-stream-estatinas",
-      "journal": "NEJM",
-      "date": "7 nov 2026",
-      "title": "Parar as estatinas depois dos 70: \"não inferior\" a 2 anos, mas com sinais de risco mais tarde",
-      "pergunta": "Em idosos sem doença cardiovascular, é seguro suspender a estatina usada em prevenção primária?",
-      "desenho": "Ensaio aleatorizado, aberto, de não-inferioridade, com avaliação cega dos eventos (STREAM), em 24 centros da Suíça, Países Baixos e França",
-      "participantes": "1880 adultos com 70 ou mais anos e pelo menos duas doenças crónicas",
-      "resultado": "Aos 2 anos, parar não foi inferior a continuar (enfarte, AVC isquémico ou morte); com seguimento até 4 anos houve mais eventos cardiovasculares em quem parou. Sem diferenças em qualidade de vida, dor ou quedas",
-      "limitacao": "Ensaio aberto e só em idosos com multimorbilidade; \"não inferior\" não quer dizer \"sem risco\"",
-      "importa": "Ajuda a decidir sobre desprescrição em idosos — e mostra porque é que a margem de não-inferioridade tem de ser lida com cuidado.",
-      "url": "https://www.hcplive.com/view/stream-statin-discontinuation-noninferior-in-older-adults-without-cvd"
+      "id": "c-doac-tce",
+      "journal": "JAMA Network Open",
+      "date": "23 nov 2026",
+      "title": "Traumatismo craniano: tomar anticoagulantes orais diretos não aumentou o risco de hemorragia na TAC",
+      "pergunta": "Adultos que tomam anticoagulantes orais diretos (DOAC: apixabano, rivaroxabano, edoxabano ou dabigatrano) têm mais hemorragia dentro do crânio depois de bater com a cabeça do que quem não toma anticoagulantes?",
+      "desenho": "Estudo de coorte retrospetivo (analisa registos do passado), cruzando dados de urgência, internamento e receitas dos cuidados de saúde primários de 2018 a 2022, com regressão logística multivariável para ajustar a idade e outras diferenças",
+      "participantes": "11 401 episódios de traumatismo craniano com TAC à cabeça em 10 625 adultos (mediana de idade 52 anos), em 3 urgências de Londres; 565 episódios (5%) em pessoas a tomar DOAC",
+      "resultado": "Hemorragia intracraniana na primeira TAC em 7,1% dos episódios com DOAC vs 7,7% sem anticoagulação (OR ajustado 0,93; IC 95% 0,70–1,21). Cirurgia neurológica em 0,4% nos dois grupos",
+      "limitacao": "Só inclui quem fez TAC e cerca de 28% dos episódios ficaram de fora por falta de ligação aos dados dos cuidados primários; idade e fragilidade podem ainda confundir a comparação",
+      "importa": "Põe em causa a regra de fazer TAC a todos os doentes com DOAC só por tomarem o fármaco depois de um traumatismo ligeiro, o que pode mudar as normas de imagem nos idosos.",
+      "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2856962"
     }
   ]
 }
