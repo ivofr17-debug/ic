@@ -1,6 +1,6 @@
 {
   "date": "2026-11-24",
-  "updated_at": "2026-11-24T06:30:00+00:00",
+  "updated_at": "2026-11-24T19:30:00+00:00",
   "items": [
     {
       "id": "n-20261124-nato",
@@ -105,6 +105,55 @@
         {
           "name": "ECO",
           "url": "https://eco.sapo.pt/2026/11/23/nvidia-dispara-31-e-ganha-quase-um-biliao-de-dolares-em-valor-de-mercado-anthropic-falta-a-festa-em-wall-street/"
+        }
+      ]
+    },
+    {
+      "id": "n-20261124-oe2027-aprovado",
+      "tema": "nacional",
+      "edicao": "tarde",
+      "title": "Orçamento do Estado para 2027 aprovado com a abstenção do PS",
+      "summary": "O OE2027 passou na votação final global com os votos a favor do PSD e do CDS e a abstenção socialista.",
+      "body": "PSD e CDS foram os únicos a votar a favor; a abstenção do PS garantiu a aprovação, e partidos como o Chega e o Livre votaram contra. Com as alterações da oposição, o Ministério das Finanças passou a prever um défice de 0,2% do PIB em 2027, em vez do pequeno excedente inicial, e o ministro Miranda Sarmento atribuiu-lhes um custo de cerca de 800 milhões de euros. No encerramento, Luís Montenegro acusou a oposição de irresponsabilidade, garantiu que o défice não se vai concretizar e afastou uma crise política.",
+      "context": "Na especialidade foram aprovadas mais de 340 alterações, várias contra a vontade do Governo, como o congelamento das propinas, IVA zero temporário num cabaz alimentar e mais 110 milhões de euros para o INEM. O documento segue agora para promulgação pelo Presidente da República, António José Seguro.",
+      "sources": [
+        {
+          "name": "ECO",
+          "url": "https://eco.sapo.pt/2026/11/24/orcamento-do-estado-para-2027-aprovado-em-votacao-final-gracas-a-abstencao-do-ps/"
+        },
+        {
+          "name": "DN",
+          "url": "https://www.dn.pt/pol%C3%ADtica/oe2027-proposta-aprovada-esta-tera-feira-em-votao-final-global-aps-vrias-alteraes-revelia-do-governo"
+        }
+      ]
+    },
+    {
+      "id": "n-20261124-bruxelas",
+      "tema": "economia",
+      "edicao": "tarde",
+      "title": "Bruxelas diz que a despesa portuguesa cresce acima do limite, mas défice baixo evita sanções",
+      "summary": "Na avaliação do OE2027, a Comissão Europeia considera Portugal em conformidade com as regras, apesar do desvio na despesa.",
+      "body": "A Comissão prevê que a despesa líquida cresça 8,1% em 2026 e 4,3% em 2027, bem acima dos 5,1% e 1,2% recomendados, o que dá um desvio acumulado de 2% do PIB em 2027. Como o défice previsto fica abaixo de 0,5% do PIB, Portugal é considerado em equilíbrio e não é classificado como incumpridor. O Ministério das Finanças respondeu que o país mantém um dos maiores saldos orçamentais da zona euro e que continua comprometido com a redução da dívida.",
+      "context": "Desde 2024, as regras orçamentais europeias controlam sobretudo o ritmo de crescimento da despesa pública, e não só o défice. Eventuais consequências só poderiam chegar em 2028 e, segundo o ECO, dificilmente passariam de avisos, a menos que o défice superasse 3% do PIB.",
+      "sources": [
+        {
+          "name": "ECO",
+          "url": "https://eco.sapo.pt/2026/11/24/despesa-liquida-em-portugal-ultrapassa-limite-permitido-mas-defice-reduzido-trava-sancoes/"
+        }
+      ]
+    },
+    {
+      "id": "n-20261124-riade",
+      "tema": "internacional",
+      "edicao": "tarde",
+      "title": "Ataque atribuído aos Houthis atinge torre no centro financeiro de Riade",
+      "summary": "É o segundo ataque em menos de uma semana ao bairro financeiro da capital saudita; a defesa civil fala em 11 feridos.",
+      "body": "Um projétil atingiu esta terça-feira uma torre no Distrito Financeiro Rei Abdullah, em Riade; segundo testemunhas, o alvo foi o arranha-céus do fundo soberano saudita (PIF), já danificado num ataque a 19 de novembro. A coligação liderada pela Arábia Saudita no Iémen classificou-o como um ataque terrorista cobarde, e a defesa civil saudita contou 11 feridos. As autoridades estão a investigar no local.",
+      "context": "Os Houthis, grupo iemenita alinhado com o Irão, têm atacado infraestruturas sauditas nas últimas semanas, incluindo um edifício da Aramco e um oleoduto. A escalada acontece em paralelo com a guerra dos EUA e de Israel contra o Irão e já levou Riade a cancelar a conferência de investimento conhecida como Davos do Deserto.",
+      "sources": [
+        {
+          "name": "Al Jazeera (com AFP)",
+          "url": "https://www.aljazeera.com/news/2026/11/24/saudi-led-coalition-condemns-terrorist-attack-on-tower-in-riyadh"
         }
       ]
     }
