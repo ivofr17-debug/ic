@@ -1,6 +1,6 @@
 {
   "date": "2026-11-25",
-  "updated_at": "2026-11-25T06:20:00+00:00",
+  "updated_at": "2026-11-25T19:16:05+00:00",
   "items": [
     {
       "id": "n-20261125-putin",
@@ -11,8 +11,14 @@
       "body": "Numa reunião no Kremlin com membros do Governo e dirigentes do setor petrolífero, na terça-feira, Vladimir Putin acusou a Ucrânia de continuar a atacar refinarias apesar de Donald Trump ter pedido que parasse, e garantiu que haverá retaliação. Fontes da indústria ouvidas pela Reuters estimam que os drones ucranianos cortaram cerca de 45% da refinação russa desde o fim de outubro, e algumas regiões já limitam a venda de gasolina e gasóleo. Na madrugada de terça-feira, um ataque russo a Zaporíjia matou duas pessoas e feriu mais de 40.",
       "context": "Em meados de outubro, Trump declarou uma trégua nos ataques a infraestruturas de energia; os ataques ucranianos abrandaram, mas foram retomados no fim do mês. Kiev diz que só deixa de visar alvos energéticos russos se Moscovo fizer o mesmo.",
       "sources": [
-        {"name": "Al Jazeera / Reuters", "url": "https://www.aljazeera.com/news/2026/11/24/putin-says-kyiv-hit-russian-oil-plants-despite-trump-plea-vows-retaliation"},
-        {"name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/11/24/russian-attack-kills-two-people-in-ukraines-zaporizhzhia"}
+        {
+          "name": "Al Jazeera / Reuters",
+          "url": "https://www.aljazeera.com/news/2026/11/24/putin-says-kyiv-hit-russian-oil-plants-despite-trump-plea-vows-retaliation"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/24/russian-attack-kills-two-people-in-ukraines-zaporizhzhia"
+        }
       ]
     },
     {
@@ -24,8 +30,14 @@
       "body": "O Orçamento do Estado para 2027 foi aprovado na terça-feira com votos a favor de PSD e CDS, abstenção de PS e JPP e votos contra de Chega, IL, Livre, PCP, BE e PAN. Das cerca de 2900 propostas de alteração, 343 passaram, entre elas três meses de IVA zero num cabaz alimentar, o congelamento das propinas e a passagem do bónus dos pensionistas a aumento permanente, todas contra a vontade do Governo. Luís Montenegro afirmou que, se aplicasse tudo, o país teria um défice de 0,2% do PIB em 2027, mas que o Governo o vai corrigir ao longo do ano.",
       "context": "Na votação final global vota-se o Orçamento inteiro, já com as alterações aprovadas artigo a artigo na fase de especialidade, onde a oposição, se se juntar, pode impor mudanças a um governo minoritário. O ministro das Finanças chamou «bloco fatal» à convergência entre PS e Chega, enquanto o PS justificou a abstenção com a vontade de evitar uma crise política.",
       "sources": [
-        {"name": "RTP", "url": "https://www.rtp.pt/noticias/economia/proposta-de-orcamento-do-estado-para-2027-aprovada-em-votacao-final-global_e1781227"},
-        {"name": "DN", "url": "https://www.dn.pt/pol%C3%ADtica/oe2027-proposta-aprovada-esta-tera-feira-em-votao-final-global-aps-vrias-alteraes-revelia-do-governo"}
+        {
+          "name": "RTP",
+          "url": "https://www.rtp.pt/noticias/economia/proposta-de-orcamento-do-estado-para-2027-aprovada-em-votacao-final-global_e1781227"
+        },
+        {
+          "name": "DN",
+          "url": "https://www.dn.pt/pol%C3%ADtica/oe2027-proposta-aprovada-esta-tera-feira-em-votao-final-global-aps-vrias-alteraes-revelia-do-governo"
+        }
       ]
     },
     {
@@ -37,8 +49,14 @@
       "body": "Na conferência anual da associação portuguesa de capital de risco, Manuel Castro Almeida anunciou um Fundo de Fundos de 500 milhões de euros, gerido pelo Banco Português de Fomento, para financiar empresas com projetos viáveis. O objetivo é que mais empresas ganhem escala, sobretudo através das exportações, porque hoje só uma fração ínfima do tecido empresarial é de grande dimensão. O ministro anunciou também que o capital de risco passará a chamar-se «capital de investimento».",
       "context": "Um fundo de fundos não empresta diretamente às empresas: coloca dinheiro em fundos de capital de risco ou de private equity, que por sua vez compram participações em empresas. A pequena dimensão das empresas é há muito apontada como um travão à produtividade e aos salários em Portugal.",
       "sources": [
-        {"name": "DN / Dinheiro Vivo", "url": "https://dinheirovivo.dn.pt/economia/governo-prepara-fundo-de-500-milhes-de-euros-para-ajudar-empresas-a-tornarem-se-grandes"},
-        {"name": "RTP", "url": "https://www.rtp.pt/noticias/economia/governo-vai-avancar-com-500-milhoes-de-euros-para-empresas_v1781326"}
+        {
+          "name": "DN / Dinheiro Vivo",
+          "url": "https://dinheirovivo.dn.pt/economia/governo-prepara-fundo-de-500-milhes-de-euros-para-ajudar-empresas-a-tornarem-se-grandes"
+        },
+        {
+          "name": "RTP",
+          "url": "https://www.rtp.pt/noticias/economia/governo-vai-avancar-com-500-milhoes-de-euros-para-empresas_v1781326"
+        }
       ]
     },
     {
@@ -50,7 +68,10 @@
       "body": "Segundo o «Health at a Glance: Europe 2026», 27% dos homens portugueses bebem álcool todos os dias, contra 7,5% na média da UE, e cada adulto consome 11,9 litros de álcool puro por ano, o valor mais alto da União; desde 2014 o consumo subiu pelo menos 10%, quando na UE caiu 6%. Na vacinação, Portugal cumpre a meta de 95% para o sarampo e vacina contra o HPV 95% das raparigas e 94% dos rapazes, muito acima da média europeia. Quase metade dos adultos (46%) diz nunca fazer exercício, e a esperança de vida à nascença é de 82,5 anos, um ano acima da média.",
       "context": "O HPV (vírus do papiloma humano) causa quase todos os cancros do colo do útero e parte dos da orofaringe e do ânus, por isso a vacinação aos 15 anos é uma medida de prevenção do cancro. O álcool é um fator de risco para doença hepática, vários cancros e doença cardiovascular, sem um nível de consumo considerado seguro.",
       "sources": [
-        {"name": "Observador / Lusa", "url": "https://observador.pt/2026/11/24/portugal-lidera-na-vacinacao-mas-tambem-no-consumo-diario-de-alcool-na-uniao-europeia/"}
+        {
+          "name": "Observador / Lusa",
+          "url": "https://observador.pt/2026/11/24/portugal-lidera-na-vacinacao-mas-tambem-no-consumo-diario-de-alcool-na-uniao-europeia/"
+        }
       ]
     },
     {
@@ -62,7 +83,10 @@
       "body": "Entre 1 de janeiro e 15 de novembro foram assassinadas 30 mulheres em Portugal, 20 delas em contexto de femicídio, e houve 38 tentativas de femicídio, segundo o Observatório de Mulheres Assassinadas da UMAR. Dezoito dos femicídios aconteceram em relações de intimidade, sempre com homens como autores, e em sete casos a relação já tinha terminado. Os outros dois foram casos de violência vicária, em que crianças foram mortas por vingança.",
       "context": "Femicídio é o homicídio de uma mulher por ser mulher, muitas vezes às mãos de um companheiro ou ex-companheiro; a violência vicária é a que atinge os filhos para fazer sofrer o outro progenitor. O período a seguir à separação é apontado pelos especialistas como o de maior risco.",
       "sources": [
-        {"name": "Observador / Lusa", "url": "https://observador.pt/2026/11/24/portugal-registou-20-femicidios-e-38-tentativas-entre-janeiro-e-15-de-novembro/"}
+        {
+          "name": "Observador / Lusa",
+          "url": "https://observador.pt/2026/11/24/portugal-registou-20-femicidios-e-38-tentativas-entre-janeiro-e-15-de-novembro/"
+        }
       ]
     },
     {
@@ -74,8 +98,56 @@
       "body": "A nave Shenzhou-24 partiu esta quarta-feira com Muhammad Zeeshan Ali, de 40 anos, a bordo como especialista de carga científica, ao lado do comandante Tang Hongbo e do engenheiro de voo Wu Yi. É o primeiro voo conjunto de astronautas chineses e estrangeiros no programa espacial tripulado da China. Ali deverá ficar cerca de uma semana na estação, onde arranca quatro experiências conjuntas de biotecnologia e materiais, uma delas com cianobactérias.",
       "context": "A Tiangong («Palácio Celestial») é a estação espacial que a China construiu sozinha, depois de ter ficado fora da Estação Espacial Internacional. Abrir lugares a astronautas de países parceiros é também uma forma de diplomacia espacial.",
       "sources": [
-        {"name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/11/24/pakistans-zeeshan-ali-set-for-historic-flight-to-chinas-space-station"},
-        {"name": "Al Jazeera (vídeo)", "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/pakistani-astronaut-launches-into-space-aboard-chinese-rocket"}
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/24/pakistans-zeeshan-ali-set-for-historic-flight-to-chinas-space-station"
+        },
+        {
+          "name": "Al Jazeera (vídeo)",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/pakistani-astronaut-launches-into-space-aboard-chinese-rocket"
+        }
+      ]
+    },
+    {
+      "id": "n-20261125-tarifas",
+      "tema": "economia",
+      "edicao": "tarde",
+      "title": "EUA propõem novas tarifas a 14 economias, incluindo a UE, a China e o Japão",
+      "summary": "Washington acusa estes parceiros de produzirem em excesso à custa de apoios do Estado e prepara novas taxas ao abrigo da Secção 301.",
+      "body": "O Representante do Comércio dos EUA divulgou esta quarta-feira as conclusões preliminares de uma investigação de oito meses sobre «excesso de capacidade estrutural», visando China, UE, Japão, Coreia do Sul, Índia, Suíça, Taiwan e vários países do Sudeste Asiático. Para a China e o Vietname propõe-se uma taxa de 20%; para a UE, o Japão e a Coreia do Sul, Washington garante que fica dentro do teto de 15% acordado com cada um. A Comissão Europeia diz que rejeita com firmeza a ideia de que a Europa seja fonte de sobrecapacidade, Pequim fala num pretexto político, e as bolsas norte-americanas abriram em forte queda.",
+      "context": "Em fevereiro, o Supremo Tribunal dos EUA decidiu que a lei de poderes de emergência não permitia as tarifas do «Dia da Libertação», e a Administração Trump passou a usar a Secção 301 da lei do comércio de 1974, que permite penalizar práticas comerciais consideradas desleais. Os especialistas esperam contestação em tribunal, mas acham esta base jurídica mais sólida do que as anteriores.",
+      "sources": [
+        {
+          "name": "Al Jazeera / Reuters",
+          "url": "https://www.aljazeera.com/news/2026/11/25/trump-announces-new-trade-tariffs-which-countries-will-they-target"
+        },
+        {
+          "name": "Al Jazeera / Reuters",
+          "url": "https://www.aljazeera.com/economy/2026/11/25/world-reacts-to-trumps-new-tariffs-as-us-stocks-tumble"
+        }
+      ]
+    },
+    {
+      "id": "n-20261125-novembro",
+      "tema": "nacional",
+      "edicao": "tarde",
+      "title": "Discurso de Aguiar-Branco no 25 de Novembro abre choque com a esquerda",
+      "summary": "O presidente do Parlamento criticou as assembleias populares e os protestos na rua, e o PS acusou-o de confrontar o Presidente da República.",
+      "body": "Na sessão solene do 25 de Novembro, José Pedro Aguiar-Branco defendeu que a democracia assenta no direito à diferença e não no consenso, e afirmou que as leis se fazem no Parlamento e não na rua, numa alusão às acampadas pela habitação; PSD, CDS, IL e Chega aplaudiram de pé. No seu primeiro discurso nesta sessão, António José Seguro pediu que a voz do povo seja ouvida também entre eleições e alertou para quem não beneficia do crescimento, nomeadamente na habitação. O líder parlamentar do PS falou em «confronto institucional» com o Presidente, Pedro Nuno Santos chamou-lhe «incendiário extremista», e o CDS elogiou um discurso «corajoso»; o PCP voltou a não comparecer.",
+      "context": "O 25 de Novembro de 1975 pôs fim ao período revolucionário mais radical (PREC); a sua celebração em sessão solene é defendida pela direita e contestada por parte da esquerda, que vê nela uma tentativa de rivalizar com o 25 de Abril. A sessão decorreu depois de semanas de protestos e acampamentos pelo direito à habitação.",
+      "sources": [
+        {
+          "name": "RTP",
+          "url": "https://www.rtp.pt/noticias/politica/parlamento-assinala-25-de-novembro-em-sessao-solene_e1781476"
+        },
+        {
+          "name": "DN / Lusa",
+          "url": "https://www.dn.pt/pol%C3%ADtica/ps-acusa-aguiar-branco-de-confronto-institucional-com-seguro-cds-elogia-discurso-corajoso-e-determinado"
+        },
+        {
+          "name": "DN / Lusa",
+          "url": "https://www.dn.pt/pol%C3%ADtica/25-novembro-pedro-nuno-acusa-aguiar-branco-de-ser-incendirio-extremista-sem-nvel-para-o-cargo"
+        }
       ]
     }
   ]
