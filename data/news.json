@@ -1,160 +1,81 @@
 {
-  "date": "2026-11-24",
-  "updated_at": "2026-11-24T19:30:00+00:00",
+  "date": "2026-11-25",
+  "updated_at": "2026-11-25T06:20:00+00:00",
   "items": [
     {
-      "id": "n-20261124-nato",
+      "id": "n-20261125-putin",
       "tema": "internacional",
       "edicao": "manhã",
-      "title": "NATO envia avião de vigilância AWACS para a Polónia depois da queda de mísseis russos",
-      "summary": "Os aliados reuniram-se em Bruxelas e decidiram reforçar a vigilância aérea do flanco leste.",
-      "body": "Depois de uma reunião da NATO em Bruxelas, na segunda-feira, o vice-ministro da Defesa polaco anunciou que a Aliança vai pôr à disposição da Polónia um avião de alerta precoce AWACS. Um porta-voz da NATO disse depois que o comandante supremo aliado na Europa, o general Alexus Grynkewich, autorizou o destacamento e está a estudar enviar mais meios. Segundo a procuradoria polaca, três mísseis de cruzeiro russos Kh-101 caíram em território polaco na sexta-feira, sem relatos de feridos.",
-      "context": "Os AWACS são aviões com um grande radar no dorso que detetam aeronaves e mísseis a centenas de quilómetros; a NATO tem 14, baseados em Geilenkirchen, na Alemanha. O primeiro-ministro polaco, Donald Tusk, falou numa provocação provavelmente intencional, já que os mísseis caíram durante exercícios militares europeus no sudeste do país.",
+      "title": "Putin promete retaliar depois de novos ataques ucranianos a refinarias russas",
+      "summary": "O Presidente russo diz que a resposta é inevitável e pede mais segurança para as instalações de energia.",
+      "body": "Numa reunião no Kremlin com membros do Governo e dirigentes do setor petrolífero, na terça-feira, Vladimir Putin acusou a Ucrânia de continuar a atacar refinarias apesar de Donald Trump ter pedido que parasse, e garantiu que haverá retaliação. Fontes da indústria ouvidas pela Reuters estimam que os drones ucranianos cortaram cerca de 45% da refinação russa desde o fim de outubro, e algumas regiões já limitam a venda de gasolina e gasóleo. Na madrugada de terça-feira, um ataque russo a Zaporíjia matou duas pessoas e feriu mais de 40.",
+      "context": "Em meados de outubro, Trump declarou uma trégua nos ataques a infraestruturas de energia; os ataques ucranianos abrandaram, mas foram retomados no fim do mês. Kiev diz que só deixa de visar alvos energéticos russos se Moscovo fizer o mesmo.",
       "sources": [
-        {
-          "name": "Reuters",
-          "url": "https://www.dailymaverick.co.za/article/2026-11-23-nato-to-send-early-warning-system-aircraft-to-poland-after-missiles-incident/"
-        },
-        {
-          "name": "AP",
-          "url": "https://www.pbs.org/newshour/world/nato-calls-russian-missiles-landing-in-poland-a-grave-violation-of-airspace"
-        }
+        {"name": "Al Jazeera / Reuters", "url": "https://www.aljazeera.com/news/2026/11/24/putin-says-kyiv-hit-russian-oil-plants-despite-trump-plea-vows-retaliation"},
+        {"name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/11/24/russian-attack-kills-two-people-in-ukraines-zaporizhzhia"}
       ]
     },
     {
-      "id": "n-20261124-oe2027",
+      "id": "n-20261125-orcamento",
       "tema": "nacional",
       "edicao": "manhã",
-      "title": "Orçamento do Estado para 2027 vai hoje a votação final no Parlamento",
-      "summary": "Depois de quatro dias de votações na especialidade, o OE2027 é votado na globalidade esta terça-feira, com greve e protestos à porta.",
-      "body": "As votações das propostas de alteração terminaram na segunda-feira, com 134 propostas aprovadas, 113 delas da oposição — entre elas o alargamento do Programa Regressar a emigrantes pensionistas que voltem em 2027. O Chega já confirmou que vota contra na votação final global. Vários sindicatos da saúde, educação e comércio marcaram greve para hoje e há protestos convocados para a frente da Assembleia da República, incluindo uma concentração da CGTP.",
-      "context": "O Orçamento passa por duas fases: a especialidade, em que se vota artigo a artigo e se acrescentam alterações, e a votação final global, que aprova ou chumba o documento inteiro. Na véspera, o ex-primeiro-ministro Passos Coelho afirmou que já existe uma crise política e que o Parlamento pode escolher outro Governo se não concordar com este.",
+      "title": "Governo diz que vai continuar a governar com um Orçamento alterado pela oposição",
+      "summary": "O OE2027 passou com a abstenção do PS, mas leva medidas que o Executivo não queria, aprovadas por PS e Chega.",
+      "body": "O Orçamento do Estado para 2027 foi aprovado na terça-feira com votos a favor de PSD e CDS, abstenção de PS e JPP e votos contra de Chega, IL, Livre, PCP, BE e PAN. Das cerca de 2900 propostas de alteração, 343 passaram, entre elas três meses de IVA zero num cabaz alimentar, o congelamento das propinas e a passagem do bónus dos pensionistas a aumento permanente, todas contra a vontade do Governo. Luís Montenegro afirmou que, se aplicasse tudo, o país teria um défice de 0,2% do PIB em 2027, mas que o Governo o vai corrigir ao longo do ano.",
+      "context": "Na votação final global vota-se o Orçamento inteiro, já com as alterações aprovadas artigo a artigo na fase de especialidade, onde a oposição, se se juntar, pode impor mudanças a um governo minoritário. O ministro das Finanças chamou «bloco fatal» à convergência entre PS e Chega, enquanto o PS justificou a abstenção com a vontade de evitar uma crise política.",
       "sources": [
-        {
-          "name": "ECO",
-          "url": "https://eco.sapo.pt/2026/11/24/programa-regressar-marca-o-derradeiro-dia-de-votacoes-na-especialidade-do-oe2027/"
-        },
-        {
-          "name": "Observador (Lusa)",
-          "url": "https://observador.pt/2026/11/18/greve-nacional-no-dia-da-votacao-do-oe2027-sindicatos-da-saude-educacao-e-comercio-convocam-paralisacao-para-24-de-novembro/"
-        },
-        {
-          "name": "ECO",
-          "url": "https://eco.sapo.pt/2026/11/23/passos-coelho-diz-que-crise-politica-esta-ca/"
-        }
+        {"name": "RTP", "url": "https://www.rtp.pt/noticias/economia/proposta-de-orcamento-do-estado-para-2027-aprovada-em-votacao-final-global_e1781227"},
+        {"name": "DN", "url": "https://www.dn.pt/pol%C3%ADtica/oe2027-proposta-aprovada-esta-tera-feira-em-votao-final-global-aps-vrias-alteraes-revelia-do-governo"}
       ]
     },
     {
-      "id": "n-20261124-lego",
+      "id": "n-20261125-fundo",
       "tema": "economia",
       "edicao": "manhã",
-      "title": "Lego vai construir em Estarreja uma fábrica de cerca de mil milhões de euros",
-      "summary": "O grupo dinamarquês promete mais de mil empregos diretos no distrito de Aveiro, com produção a partir de 2030.",
-      "body": "O anúncio foi feito pelo diretor de operações da Lego, Carsten Rasmussen, na Câmara de Estarreja, com o primeiro-ministro presente. A unidade terá 115 mil metros quadrados e fará várias etapas da produção, da moldagem à embalagem; a construção deve começar no primeiro semestre de 2027. A empresa justificou a escolha com a proximidade aos mercados, as ligações logísticas e a mão de obra qualificada.",
-      "context": "Será a oitava fábrica da Lego no mundo e a quarta na Europa, pensada para abastecer a Europa, o Médio Oriente e África. O investimento foi atraído pela AICEP, a agência pública que procura captar investimento estrangeiro para Portugal; não foram divulgados valores de apoios públicos.",
+      "title": "Governo cria fundo de 500 milhões para ajudar empresas portuguesas a crescer",
+      "summary": "O ministro da Economia quer mais empresas com 250 ou mais trabalhadores e diz que a medida vai a Conselho de Ministros em breve.",
+      "body": "Na conferência anual da associação portuguesa de capital de risco, Manuel Castro Almeida anunciou um Fundo de Fundos de 500 milhões de euros, gerido pelo Banco Português de Fomento, para financiar empresas com projetos viáveis. O objetivo é que mais empresas ganhem escala, sobretudo através das exportações, porque hoje só uma fração ínfima do tecido empresarial é de grande dimensão. O ministro anunciou também que o capital de risco passará a chamar-se «capital de investimento».",
+      "context": "Um fundo de fundos não empresta diretamente às empresas: coloca dinheiro em fundos de capital de risco ou de private equity, que por sua vez compram participações em empresas. A pequena dimensão das empresas é há muito apontada como um travão à produtividade e aos salários em Portugal.",
       "sources": [
-        {
-          "name": "ECO",
-          "url": "https://eco.sapo.pt/2026/11/23/lego-monta-fabrica-de-mil-milhoes-em-estarreja-que-vai-criar-mil-empregos-diretos/"
-        }
+        {"name": "DN / Dinheiro Vivo", "url": "https://dinheirovivo.dn.pt/economia/governo-prepara-fundo-de-500-milhes-de-euros-para-ajudar-empresas-a-tornarem-se-grandes"},
+        {"name": "RTP", "url": "https://www.rtp.pt/noticias/economia/governo-vai-avancar-com-500-milhoes-de-euros-para-empresas_v1781326"}
       ]
     },
     {
-      "id": "n-20261124-sns-fraude",
+      "id": "n-20261125-ocde",
       "tema": "saúde",
       "edicao": "manhã",
-      "title": "Comissão contra a fraude no SNS diz que, um ano depois, não tem dados nem meios",
-      "summary": "O balanço do primeiro ano aponta falta de acesso à despesa detalhada do SNS, de pessoal e de orçamento próprio.",
-      "body": "A comissão, liderada pelo juiz Carlos Alexandre, só recebe dados agregados e não consegue consultar a despesa detalhada do SNS, uma limitação que considera crítica. Tem quatro dos seis membros previstos, nunca recebeu o apoio administrativo prometido e não tem orçamento próprio. Pediu em março uma plataforma para receber denúncias, que ainda não existe.",
-      "context": "Foi criada pelo Governo em novembro de 2025 para detetar fraude na despesa do SNS; em outubro já tinha enviado ao Ministério Público suspeitas de irregularidades em contratações. Os dados que procura são tratados pelo Centro de Controlo e Monitorização do SNS, gerido pelos Serviços Partilhados do Ministério da Saúde (SPMS).",
+      "title": "Portugal lidera a UE na vacinação, mas também no consumo diário de álcool",
+      "summary": "O relatório europeu da OCDE e da Comissão Europeia mostra um país muito vacinado, que bebe muito e se mexe pouco.",
+      "body": "Segundo o «Health at a Glance: Europe 2026», 27% dos homens portugueses bebem álcool todos os dias, contra 7,5% na média da UE, e cada adulto consome 11,9 litros de álcool puro por ano, o valor mais alto da União; desde 2014 o consumo subiu pelo menos 10%, quando na UE caiu 6%. Na vacinação, Portugal cumpre a meta de 95% para o sarampo e vacina contra o HPV 95% das raparigas e 94% dos rapazes, muito acima da média europeia. Quase metade dos adultos (46%) diz nunca fazer exercício, e a esperança de vida à nascença é de 82,5 anos, um ano acima da média.",
+      "context": "O HPV (vírus do papiloma humano) causa quase todos os cancros do colo do útero e parte dos da orofaringe e do ânus, por isso a vacinação aos 15 anos é uma medida de prevenção do cancro. O álcool é um fator de risco para doença hepática, vários cancros e doença cardiovascular, sem um nível de consumo considerado seguro.",
       "sources": [
-        {
-          "name": "Observador",
-          "url": "https://observador.pt/2026/11/23/um-ano-depois-comissao-de-combate-a-fraude-no-sns-nao-tem-acesso-a-dados-denuncia-falta-de-meios-e-quer-canal-de-denuncias/"
-        }
+        {"name": "Observador / Lusa", "url": "https://observador.pt/2026/11/24/portugal-lidera-na-vacinacao-mas-tambem-no-consumo-diario-de-alcool-na-uniao-europeia/"}
       ]
     },
     {
-      "id": "n-20261124-cp-greve",
+      "id": "n-20261125-femicidios",
       "tema": "sociedade",
       "edicao": "manhã",
-      "title": "Greve dos maquinistas da CP é total hoje e amanhã",
-      "summary": "No primeiro dia, parcial, foram suprimidos 242 comboios; o sindicato prevê que terça e quarta pare cerca de três quartos da operação.",
-      "body": "A greve do SMAQ, o sindicato dos maquinistas, decorre de 23 a 27 de novembro e é total nesta terça e quarta-feira. Na segunda-feira, até às 19h, a CP suprimiu 22,8% dos comboios previstos: quase dois terços no longo curso, perto de 29% nos urbanos do Porto e 6% nos de Lisboa. Há serviços mínimos nos dias de paralisação total e quem tem bilhete pode pedir reembolso ou trocar de comboio.",
-      "context": "O sindicato reivindica recuperação do poder de compra, valorização da profissão, melhores condições de trabalho e mais segurança ferroviária. A greve coincide com o dia da votação final do Orçamento, em que outros sindicatos também param.",
+      "title": "Vinte femicídios e 38 tentativas em Portugal até meados de novembro",
+      "summary": "Os dados do Observatório de Mulheres Assassinadas foram divulgados na véspera do dia internacional contra a violência sobre as mulheres.",
+      "body": "Entre 1 de janeiro e 15 de novembro foram assassinadas 30 mulheres em Portugal, 20 delas em contexto de femicídio, e houve 38 tentativas de femicídio, segundo o Observatório de Mulheres Assassinadas da UMAR. Dezoito dos femicídios aconteceram em relações de intimidade, sempre com homens como autores, e em sete casos a relação já tinha terminado. Os outros dois foram casos de violência vicária, em que crianças foram mortas por vingança.",
+      "context": "Femicídio é o homicídio de uma mulher por ser mulher, muitas vezes às mãos de um companheiro ou ex-companheiro; a violência vicária é a que atinge os filhos para fazer sofrer o outro progenitor. O período a seguir à separação é apontado pelos especialistas como o de maior risco.",
       "sources": [
-        {
-          "name": "ECO (Lusa)",
-          "url": "https://eco.sapo.pt/2026/11/23/greve-dos-maquinistas-da-cp-leva-a-supressao-de-23-dos-comboios-ate-as-19h00"
-        },
-        {
-          "name": "DN (Lusa)",
-          "url": "https://www.dn.pt/sociedade/cp-greve-dos-maquinistas-levou-supresso-de-mais-de-240-comboios"
-        }
+        {"name": "Observador / Lusa", "url": "https://observador.pt/2026/11/24/portugal-registou-20-femicidios-e-38-tentativas-entre-janeiro-e-15-de-novembro/"}
       ]
     },
     {
-      "id": "n-20261124-nvidia",
-      "tema": "tecnologia",
+      "id": "n-20261125-shenzhou",
+      "tema": "ciência",
       "edicao": "manhã",
-      "title": "Nvidia readmite Jensen Huang como presidente executivo e ações sobem 31% num dia",
-      "summary": "O regresso do fundador, duas semanas depois da saída, deu à fabricante de chips a maior subida desde 2003.",
-      "body": "A administração da Nvidia decidiu por unanimidade voltar a nomear Jensen Huang, cuja demissão tinha aceitado cerca de duas semanas antes, depois de relações pessoais que violavam as regras internas — uma delas com uma mulher suspeita de contactos com os serviços secretos chineses. As ações fecharam a subir 31% e, segundo a Bloomberg, a empresa ganhou cerca de 952 mil milhões de dólares em valor numa só sessão. O Nasdaq teve o melhor dia em 19 meses e Donald Trump admitiu ter influenciado o regresso.",
-      "context": "A Nvidia fornece a maioria dos chips usados para treinar e correr modelos de inteligência artificial, por isso o seu valor em bolsa pesa em todo o setor. Na semana anterior a empresa tinha garantido que não readmitiria Huang.",
+      "title": "China leva pela primeira vez um astronauta estrangeiro à sua estação espacial",
+      "summary": "Um piloto da Força Aérea do Paquistão seguiu na missão Shenzhou-24 rumo à Tiangong.",
+      "body": "A nave Shenzhou-24 partiu esta quarta-feira com Muhammad Zeeshan Ali, de 40 anos, a bordo como especialista de carga científica, ao lado do comandante Tang Hongbo e do engenheiro de voo Wu Yi. É o primeiro voo conjunto de astronautas chineses e estrangeiros no programa espacial tripulado da China. Ali deverá ficar cerca de uma semana na estação, onde arranca quatro experiências conjuntas de biotecnologia e materiais, uma delas com cianobactérias.",
+      "context": "A Tiangong («Palácio Celestial») é a estação espacial que a China construiu sozinha, depois de ter ficado fora da Estação Espacial Internacional. Abrir lugares a astronautas de países parceiros é também uma forma de diplomacia espacial.",
       "sources": [
-        {
-          "name": "ECO",
-          "url": "https://eco.sapo.pt/2026/11/23/nvidia-dispara-31-e-ganha-quase-um-biliao-de-dolares-em-valor-de-mercado-anthropic-falta-a-festa-em-wall-street/"
-        }
-      ]
-    },
-    {
-      "id": "n-20261124-oe2027-aprovado",
-      "tema": "nacional",
-      "edicao": "tarde",
-      "title": "Orçamento do Estado para 2027 aprovado com a abstenção do PS",
-      "summary": "O OE2027 passou na votação final global com os votos a favor do PSD e do CDS e a abstenção socialista.",
-      "body": "PSD e CDS foram os únicos a votar a favor; a abstenção do PS garantiu a aprovação, e partidos como o Chega e o Livre votaram contra. Com as alterações da oposição, o Ministério das Finanças passou a prever um défice de 0,2% do PIB em 2027, em vez do pequeno excedente inicial, e o ministro Miranda Sarmento atribuiu-lhes um custo de cerca de 800 milhões de euros. No encerramento, Luís Montenegro acusou a oposição de irresponsabilidade, garantiu que o défice não se vai concretizar e afastou uma crise política.",
-      "context": "Na especialidade foram aprovadas mais de 340 alterações, várias contra a vontade do Governo, como o congelamento das propinas, IVA zero temporário num cabaz alimentar e mais 110 milhões de euros para o INEM. O documento segue agora para promulgação pelo Presidente da República, António José Seguro.",
-      "sources": [
-        {
-          "name": "ECO",
-          "url": "https://eco.sapo.pt/2026/11/24/orcamento-do-estado-para-2027-aprovado-em-votacao-final-gracas-a-abstencao-do-ps/"
-        },
-        {
-          "name": "DN",
-          "url": "https://www.dn.pt/pol%C3%ADtica/oe2027-proposta-aprovada-esta-tera-feira-em-votao-final-global-aps-vrias-alteraes-revelia-do-governo"
-        }
-      ]
-    },
-    {
-      "id": "n-20261124-bruxelas",
-      "tema": "economia",
-      "edicao": "tarde",
-      "title": "Bruxelas diz que a despesa portuguesa cresce acima do limite, mas défice baixo evita sanções",
-      "summary": "Na avaliação do OE2027, a Comissão Europeia considera Portugal em conformidade com as regras, apesar do desvio na despesa.",
-      "body": "A Comissão prevê que a despesa líquida cresça 8,1% em 2026 e 4,3% em 2027, bem acima dos 5,1% e 1,2% recomendados, o que dá um desvio acumulado de 2% do PIB em 2027. Como o défice previsto fica abaixo de 0,5% do PIB, Portugal é considerado em equilíbrio e não é classificado como incumpridor. O Ministério das Finanças respondeu que o país mantém um dos maiores saldos orçamentais da zona euro e que continua comprometido com a redução da dívida.",
-      "context": "Desde 2024, as regras orçamentais europeias controlam sobretudo o ritmo de crescimento da despesa pública, e não só o défice. Eventuais consequências só poderiam chegar em 2028 e, segundo o ECO, dificilmente passariam de avisos, a menos que o défice superasse 3% do PIB.",
-      "sources": [
-        {
-          "name": "ECO",
-          "url": "https://eco.sapo.pt/2026/11/24/despesa-liquida-em-portugal-ultrapassa-limite-permitido-mas-defice-reduzido-trava-sancoes/"
-        }
-      ]
-    },
-    {
-      "id": "n-20261124-riade",
-      "tema": "internacional",
-      "edicao": "tarde",
-      "title": "Ataque atribuído aos Houthis atinge torre no centro financeiro de Riade",
-      "summary": "É o segundo ataque em menos de uma semana ao bairro financeiro da capital saudita; a defesa civil fala em 11 feridos.",
-      "body": "Um projétil atingiu esta terça-feira uma torre no Distrito Financeiro Rei Abdullah, em Riade; segundo testemunhas, o alvo foi o arranha-céus do fundo soberano saudita (PIF), já danificado num ataque a 19 de novembro. A coligação liderada pela Arábia Saudita no Iémen classificou-o como um ataque terrorista cobarde, e a defesa civil saudita contou 11 feridos. As autoridades estão a investigar no local.",
-      "context": "Os Houthis, grupo iemenita alinhado com o Irão, têm atacado infraestruturas sauditas nas últimas semanas, incluindo um edifício da Aramco e um oleoduto. A escalada acontece em paralelo com a guerra dos EUA e de Israel contra o Irão e já levou Riade a cancelar a conferência de investimento conhecida como Davos do Deserto.",
-      "sources": [
-        {
-          "name": "Al Jazeera (com AFP)",
-          "url": "https://www.aljazeera.com/news/2026/11/24/saudi-led-coalition-condemns-terrorist-attack-on-tower-in-riyadh"
-        }
+        {"name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/11/24/pakistans-zeeshan-ali-set-for-historic-flight-to-chinas-space-station"},
+        {"name": "Al Jazeera (vídeo)", "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/pakistani-astronaut-launches-into-space-aboard-chinese-rocket"}
       ]
     }
   ]
