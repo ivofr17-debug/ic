@@ -1,6 +1,6 @@
 {
   "date": "2026-11-26",
-  "updated_at": "2026-11-26T06:11:01+00:00",
+  "updated_at": "2026-11-26T19:15:25+00:00",
   "items": [
     {
       "id": "n-20261126-netanyahu",
@@ -93,6 +93,55 @@
         {
           "name": "Al Jazeera / Reuters",
           "url": "https://www.aljazeera.com/news/2026/11/25/us-grants-spacex-approval-for-1-million-space-data-centres"
+        }
+      ]
+    },
+    {
+      "id": "n-20261126-pna",
+      "tema": "saúde",
+      "edicao": "tarde",
+      "title": "Dois médicos apanhados com óculos inteligentes na prova de acesso à especialidade",
+      "summary": "O Ministério da Saúde confirmou que dois candidatos usaram dispositivos proibidos na Prova Nacional de Acesso de quarta-feira.",
+      "body": "Os casos foram detetados em Santa Maria da Feira, no polo Norte da prova: um médico recém-formado tinha óculos com inteligência artificial adaptados e outro usava óculos com câmara que enviavam imagens para alguém de fora, que devolvia respostas por auriculares. As equipas de vigilância retiraram os equipamentos e registaram as ocorrências; o júri da prova decidirá sobre a validade dos exames, e o regulamento prevê a anulação em caso de uso de aparelhos eletrónicos. A Ordem dos Médicos pediu esclarecimentos formais à ACSS e diz que todos os candidatos têm direito a saber que competiram em igualdade.",
+      "context": "Mais de 2700 médicos fizeram a prova na quarta-feira, a antiga 'prova Harrison', cuja nota ordena os candidatos na escolha da vaga de formação especializada. O ministério diz que a deteção mostra que a vigilância reforçada funcionou e está a estudar soluções tecnológicas adicionais para as próximas edições.",
+      "sources": [
+        {
+          "name": "DN / Lusa",
+          "url": "https://www.dn.pt/sociedade/mdicos-apanhados-a-usar-culos-com-ia-e-cmara-de-filmar-na-prova-de-acesso-especialidade"
+        },
+        {
+          "name": "DN",
+          "url": "https://www.dn.pt/sociedade/ordem-pede-explicaes-sobre-mdicos-apanhados-a-copiar-na-prova-de-acesso-especialidade"
+        }
+      ]
+    },
+    {
+      "id": "n-20261126-bce",
+      "tema": "economia",
+      "edicao": "tarde",
+      "title": "Espanhol Pablo Hernández de Cos escolhido para suceder a Lagarde no BCE",
+      "summary": "Os líderes da zona euro, reunidos em Bruxelas, escolheram o antigo governador do Banco de Espanha para presidir ao Banco Central Europeu.",
+      "body": "Hernández de Cos, de 55 anos, liderou o banco central espanhol entre 2018 e 2024 e é hoje diretor-geral do Banco de Pagamentos Internacionais, em Basileia; ganhou a corrida ao neerlandês Klaas Knot. A nomeação ainda passa pelo Parlamento Europeu e pelo conselho do BCE, etapas vistas como formalidades. Na mesma cimeira foram escolhidos o economista alemão Markus Brunnermeier e a francesa Laurence Boone para os lugares de Philip Lane e Isabel Schnabel na comissão executiva.",
+      "context": "Christine Lagarde anunciou a 30 de outubro que sai a 7 de fevereiro, nove meses antes do fim do mandato. O novo presidente herda uma inflação de 4% na zona euro, o dobro da meta, em parte por causa da guerra no Irão, e é visto pelos analistas como mais inclinado a evitar subidas de juros do que o rival.",
+      "sources": [
+        {
+          "name": "AP (via KSAT)",
+          "url": "https://www.ksat.com/business/2026/11/26/leaders-choose-spains-former-central-bank-head-as-next-european-central-bank-president/"
+        }
+      ]
+    },
+    {
+      "id": "n-20261126-ebola",
+      "tema": "saúde",
+      "edicao": "tarde",
+      "title": "Surto de ébola na RD Congo ultrapassa os 12 mil casos e os combates travam a resposta",
+      "summary": "Os dados oficiais contam 12 021 infeções confirmadas e 5904 mortes, no surto mais mortífero de sempre no país.",
+      "body": "A epidemia, causada pela espécie Bundibugyo do vírus, foi declarada em meados de maio na província de Ituri e já chegou a oito das 26 províncias. Os confrontos em Ituri entre o exército e um grupo armado obrigaram equipas de saúde a sair das zonas afetadas; a OMS conseguiu retirar cerca de uma dúzia de pessoas, incluindo dois funcionários seus, que estiveram três dias encurraladas num hospital debaixo de fogo cruzado.",
+      "context": "Ao contrário da espécie Zaire, responsável pela epidemia da África Ocidental de 2014-16, a Bundibugyo não tem vacina nem tratamento aprovados, o que deixa a resposta dependente do isolamento de doentes e do rastreio de contactos. O leste da RD Congo tem mais de cem grupos armados ativos, o que dificulta há anos o controlo de surtos na região.",
+      "sources": [
+        {
+          "name": "Al Jazeera / AP / Reuters",
+          "url": "https://www.aljazeera.com/news/2026/11/26/dr-congo-ebola-cases-surpass-12000-as-fighting-disrupts-response-in-east"
         }
       ]
     }
