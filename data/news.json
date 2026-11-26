@@ -1,152 +1,98 @@
 {
-  "date": "2026-11-25",
-  "updated_at": "2026-11-25T19:16:05+00:00",
+  "date": "2026-11-26",
+  "updated_at": "2026-11-26T06:11:01+00:00",
   "items": [
     {
-      "id": "n-20261125-putin",
+      "id": "n-20261126-netanyahu",
       "tema": "internacional",
       "edicao": "manhã",
-      "title": "Putin promete retaliar depois de novos ataques ucranianos a refinarias russas",
-      "summary": "O Presidente russo diz que a resposta é inevitável e pede mais segurança para as instalações de energia.",
-      "body": "Numa reunião no Kremlin com membros do Governo e dirigentes do setor petrolífero, na terça-feira, Vladimir Putin acusou a Ucrânia de continuar a atacar refinarias apesar de Donald Trump ter pedido que parasse, e garantiu que haverá retaliação. Fontes da indústria ouvidas pela Reuters estimam que os drones ucranianos cortaram cerca de 45% da refinação russa desde o fim de outubro, e algumas regiões já limitam a venda de gasolina e gasóleo. Na madrugada de terça-feira, um ataque russo a Zaporíjia matou duas pessoas e feriu mais de 40.",
-      "context": "Em meados de outubro, Trump declarou uma trégua nos ataques a infraestruturas de energia; os ataques ucranianos abrandaram, mas foram retomados no fim do mês. Kiev diz que só deixa de visar alvos energéticos russos se Moscovo fizer o mesmo.",
-      "sources": [
-        {
-          "name": "Al Jazeera / Reuters",
-          "url": "https://www.aljazeera.com/news/2026/11/24/putin-says-kyiv-hit-russian-oil-plants-despite-trump-plea-vows-retaliation"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/24/russian-attack-kills-two-people-in-ukraines-zaporizhzhia"
-        }
-      ]
-    },
-    {
-      "id": "n-20261125-orcamento",
-      "tema": "nacional",
-      "edicao": "manhã",
-      "title": "Governo diz que vai continuar a governar com um Orçamento alterado pela oposição",
-      "summary": "O OE2027 passou com a abstenção do PS, mas leva medidas que o Executivo não queria, aprovadas por PS e Chega.",
-      "body": "O Orçamento do Estado para 2027 foi aprovado na terça-feira com votos a favor de PSD e CDS, abstenção de PS e JPP e votos contra de Chega, IL, Livre, PCP, BE e PAN. Das cerca de 2900 propostas de alteração, 343 passaram, entre elas três meses de IVA zero num cabaz alimentar, o congelamento das propinas e a passagem do bónus dos pensionistas a aumento permanente, todas contra a vontade do Governo. Luís Montenegro afirmou que, se aplicasse tudo, o país teria um défice de 0,2% do PIB em 2027, mas que o Governo o vai corrigir ao longo do ano.",
-      "context": "Na votação final global vota-se o Orçamento inteiro, já com as alterações aprovadas artigo a artigo na fase de especialidade, onde a oposição, se se juntar, pode impor mudanças a um governo minoritário. O ministro das Finanças chamou «bloco fatal» à convergência entre PS e Chega, enquanto o PS justificou a abstenção com a vontade de evitar uma crise política.",
-      "sources": [
-        {
-          "name": "RTP",
-          "url": "https://www.rtp.pt/noticias/economia/proposta-de-orcamento-do-estado-para-2027-aprovada-em-votacao-final-global_e1781227"
-        },
-        {
-          "name": "DN",
-          "url": "https://www.dn.pt/pol%C3%ADtica/oe2027-proposta-aprovada-esta-tera-feira-em-votao-final-global-aps-vrias-alteraes-revelia-do-governo"
-        }
-      ]
-    },
-    {
-      "id": "n-20261125-fundo",
-      "tema": "economia",
-      "edicao": "manhã",
-      "title": "Governo cria fundo de 500 milhões para ajudar empresas portuguesas a crescer",
-      "summary": "O ministro da Economia quer mais empresas com 250 ou mais trabalhadores e diz que a medida vai a Conselho de Ministros em breve.",
-      "body": "Na conferência anual da associação portuguesa de capital de risco, Manuel Castro Almeida anunciou um Fundo de Fundos de 500 milhões de euros, gerido pelo Banco Português de Fomento, para financiar empresas com projetos viáveis. O objetivo é que mais empresas ganhem escala, sobretudo através das exportações, porque hoje só uma fração ínfima do tecido empresarial é de grande dimensão. O ministro anunciou também que o capital de risco passará a chamar-se «capital de investimento».",
-      "context": "Um fundo de fundos não empresta diretamente às empresas: coloca dinheiro em fundos de capital de risco ou de private equity, que por sua vez compram participações em empresas. A pequena dimensão das empresas é há muito apontada como um travão à produtividade e aos salários em Portugal.",
-      "sources": [
-        {
-          "name": "DN / Dinheiro Vivo",
-          "url": "https://dinheirovivo.dn.pt/economia/governo-prepara-fundo-de-500-milhes-de-euros-para-ajudar-empresas-a-tornarem-se-grandes"
-        },
-        {
-          "name": "RTP",
-          "url": "https://www.rtp.pt/noticias/economia/governo-vai-avancar-com-500-milhoes-de-euros-para-empresas_v1781326"
-        }
-      ]
-    },
-    {
-      "id": "n-20261125-ocde",
-      "tema": "saúde",
-      "edicao": "manhã",
-      "title": "Portugal lidera a UE na vacinação, mas também no consumo diário de álcool",
-      "summary": "O relatório europeu da OCDE e da Comissão Europeia mostra um país muito vacinado, que bebe muito e se mexe pouco.",
-      "body": "Segundo o «Health at a Glance: Europe 2026», 27% dos homens portugueses bebem álcool todos os dias, contra 7,5% na média da UE, e cada adulto consome 11,9 litros de álcool puro por ano, o valor mais alto da União; desde 2014 o consumo subiu pelo menos 10%, quando na UE caiu 6%. Na vacinação, Portugal cumpre a meta de 95% para o sarampo e vacina contra o HPV 95% das raparigas e 94% dos rapazes, muito acima da média europeia. Quase metade dos adultos (46%) diz nunca fazer exercício, e a esperança de vida à nascença é de 82,5 anos, um ano acima da média.",
-      "context": "O HPV (vírus do papiloma humano) causa quase todos os cancros do colo do útero e parte dos da orofaringe e do ânus, por isso a vacinação aos 15 anos é uma medida de prevenção do cancro. O álcool é um fator de risco para doença hepática, vários cancros e doença cardiovascular, sem um nível de consumo considerado seguro.",
-      "sources": [
-        {
-          "name": "Observador / Lusa",
-          "url": "https://observador.pt/2026/11/24/portugal-lidera-na-vacinacao-mas-tambem-no-consumo-diario-de-alcool-na-uniao-europeia/"
-        }
-      ]
-    },
-    {
-      "id": "n-20261125-femicidios",
-      "tema": "sociedade",
-      "edicao": "manhã",
-      "title": "Vinte femicídios e 38 tentativas em Portugal até meados de novembro",
-      "summary": "Os dados do Observatório de Mulheres Assassinadas foram divulgados na véspera do dia internacional contra a violência sobre as mulheres.",
-      "body": "Entre 1 de janeiro e 15 de novembro foram assassinadas 30 mulheres em Portugal, 20 delas em contexto de femicídio, e houve 38 tentativas de femicídio, segundo o Observatório de Mulheres Assassinadas da UMAR. Dezoito dos femicídios aconteceram em relações de intimidade, sempre com homens como autores, e em sete casos a relação já tinha terminado. Os outros dois foram casos de violência vicária, em que crianças foram mortas por vingança.",
-      "context": "Femicídio é o homicídio de uma mulher por ser mulher, muitas vezes às mãos de um companheiro ou ex-companheiro; a violência vicária é a que atinge os filhos para fazer sofrer o outro progenitor. O período a seguir à separação é apontado pelos especialistas como o de maior risco.",
-      "sources": [
-        {
-          "name": "Observador / Lusa",
-          "url": "https://observador.pt/2026/11/24/portugal-registou-20-femicidios-e-38-tentativas-entre-janeiro-e-15-de-novembro/"
-        }
-      ]
-    },
-    {
-      "id": "n-20261125-shenzhou",
-      "tema": "ciência",
-      "edicao": "manhã",
-      "title": "China leva pela primeira vez um astronauta estrangeiro à sua estação espacial",
-      "summary": "Um piloto da Força Aérea do Paquistão seguiu na missão Shenzhou-24 rumo à Tiangong.",
-      "body": "A nave Shenzhou-24 partiu esta quarta-feira com Muhammad Zeeshan Ali, de 40 anos, a bordo como especialista de carga científica, ao lado do comandante Tang Hongbo e do engenheiro de voo Wu Yi. É o primeiro voo conjunto de astronautas chineses e estrangeiros no programa espacial tripulado da China. Ali deverá ficar cerca de uma semana na estação, onde arranca quatro experiências conjuntas de biotecnologia e materiais, uma delas com cianobactérias.",
-      "context": "A Tiangong («Palácio Celestial») é a estação espacial que a China construiu sozinha, depois de ter ficado fora da Estação Espacial Internacional. Abrir lugares a astronautas de países parceiros é também uma forma de diplomacia espacial.",
+      "title": "Juízes põem em causa acusações contra Netanyahu, que pede o fim do julgamento",
+      "summary": "O tribunal de Jerusalém recomendou rever ou encerrar os três processos de corrupção contra o primeiro-ministro israelita em gestão.",
+      "body": "Numa audiência na quarta-feira, os juízes consideraram baixas as hipóteses de condenação no caso mais grave (o 4000, sobre favores regulatórios a troco de cobertura noticiosa favorável), pediram que se reavalie o caso 2000 e sugeriram um acordo para fechar o caso 1000, sobre presentes de luxo. Netanyahu reagiu a partir do Knesset, dizendo que os processos foram fabricados e devem terminar já. A procuradora-geral, Gali Baharav-Miara, disse que vai analisar as recomendações e que só há duas saídas: uma sentença ou um acordo entre defesa e acusação.",
+      "context": "O julgamento começou em 2020 e Netanyahu foi o primeiro chefe de Governo israelita em funções a sentar-se no banco dos réus; nega todas as acusações. Depois das eleições inconclusivas de 27 de outubro, o encarregado de formar Governo é o seu rival Gadi Eisenkot, que tem até 6 de dezembro (prorrogável por 14 dias) para o conseguir.",
       "sources": [
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/24/pakistans-zeeshan-ali-set-for-historic-flight-to-chinas-space-station"
+          "url": "https://www.aljazeera.com/news/2026/11/25/netanyahu-says-corruption-trial-must-end-as-court-suggests-dropping-case"
         },
         {
-          "name": "Al Jazeera (vídeo)",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/pakistani-astronaut-launches-into-space-aboard-chinese-rocket"
+          "name": "Observador / Lusa",
+          "url": "https://observador.pt/2026/11/25/netanyahu-pede-fim-imediato-do-seu-julgamento-por-corrupcao/"
         }
       ]
     },
     {
-      "id": "n-20261125-tarifas",
-      "tema": "economia",
-      "edicao": "tarde",
-      "title": "EUA propõem novas tarifas a 14 economias, incluindo a UE, a China e o Japão",
-      "summary": "Washington acusa estes parceiros de produzirem em excesso à custa de apoios do Estado e prepara novas taxas ao abrigo da Secção 301.",
-      "body": "O Representante do Comércio dos EUA divulgou esta quarta-feira as conclusões preliminares de uma investigação de oito meses sobre «excesso de capacidade estrutural», visando China, UE, Japão, Coreia do Sul, Índia, Suíça, Taiwan e vários países do Sudeste Asiático. Para a China e o Vietname propõe-se uma taxa de 20%; para a UE, o Japão e a Coreia do Sul, Washington garante que fica dentro do teto de 15% acordado com cada um. A Comissão Europeia diz que rejeita com firmeza a ideia de que a Europa seja fonte de sobrecapacidade, Pequim fala num pretexto político, e as bolsas norte-americanas abriram em forte queda.",
-      "context": "Em fevereiro, o Supremo Tribunal dos EUA decidiu que a lei de poderes de emergência não permitia as tarifas do «Dia da Libertação», e a Administração Trump passou a usar a Secção 301 da lei do comércio de 1974, que permite penalizar práticas comerciais consideradas desleais. Os especialistas esperam contestação em tribunal, mas acham esta base jurídica mais sólida do que as anteriores.",
+      "id": "n-20261126-psp-gnr",
+      "tema": "nacional",
+      "edicao": "manhã",
+      "title": "Acordo salarial para PSP e GNR deixa de fora seis estruturas, incluindo as maiores",
+      "summary": "O Sinapol recusou assinar e junta-se a outros sindicatos e associações que rejeitam a proposta do Governo.",
+      "body": "O acordo fechado na sexta-feira pelo ministro da Administração Interna, Luís Neves, prevê a subida de uma posição remuneratória em 2027 (52 euros) e outra em 2028, além de aumentos em vários suplementos; o ministro diz que os ganhos podem chegar a 550 euros em quatro anos. Na quarta-feira o Sinapol recusou assinar, por considerar insuficiente a subida prevista no suplemento de patrulha. Ficam também de fora a ASPP e o SIAP, na PSP, e a APG, a ANOG e a ASPIG, na GNR — e, segundo a ANOG, as associações da GNR que assinaram representam só cerca de 1800 dos mais de 22 mil militares.",
+      "context": "As forças de segurança reivindicam há anos melhores salários e suplementos, e o tema tem motivado protestos. A ANOG lembra que, em 2024, o próprio ministério exigiu a assinatura das estruturas mais representativas — critério que, diz, o novo acordo não cumpre na GNR.",
       "sources": [
         {
-          "name": "Al Jazeera / Reuters",
-          "url": "https://www.aljazeera.com/news/2026/11/25/trump-announces-new-trade-tariffs-which-countries-will-they-target"
-        },
-        {
-          "name": "Al Jazeera / Reuters",
-          "url": "https://www.aljazeera.com/economy/2026/11/25/world-reacts-to-trumps-new-tariffs-as-us-stocks-tumble"
+          "name": "ECO / Lusa",
+          "url": "https://eco.sapo.pt/2026/11/25/seis-estruturas-da-psp-e-gnr-ficam-fora-do-acordo-para-aumentos-salariais-e-de-suplementos/"
         }
       ]
     },
     {
-      "id": "n-20261125-novembro",
-      "tema": "nacional",
-      "edicao": "tarde",
-      "title": "Discurso de Aguiar-Branco no 25 de Novembro abre choque com a esquerda",
-      "summary": "O presidente do Parlamento criticou as assembleias populares e os protestos na rua, e o PS acusou-o de confrontar o Presidente da República.",
-      "body": "Na sessão solene do 25 de Novembro, José Pedro Aguiar-Branco defendeu que a democracia assenta no direito à diferença e não no consenso, e afirmou que as leis se fazem no Parlamento e não na rua, numa alusão às acampadas pela habitação; PSD, CDS, IL e Chega aplaudiram de pé. No seu primeiro discurso nesta sessão, António José Seguro pediu que a voz do povo seja ouvida também entre eleições e alertou para quem não beneficia do crescimento, nomeadamente na habitação. O líder parlamentar do PS falou em «confronto institucional» com o Presidente, Pedro Nuno Santos chamou-lhe «incendiário extremista», e o CDS elogiou um discurso «corajoso»; o PCP voltou a não comparecer.",
-      "context": "O 25 de Novembro de 1975 pôs fim ao período revolucionário mais radical (PREC); a sua celebração em sessão solene é defendida pela direita e contestada por parte da esquerda, que vê nela uma tentativa de rivalizar com o 25 de Abril. A sessão decorreu depois de semanas de protestos e acampamentos pelo direito à habitação.",
+      "id": "n-20261126-bolsas-ia",
+      "tema": "economia",
+      "edicao": "manhã",
+      "title": "Bolsas asiáticas afundam com o regresso das dúvidas sobre a inteligência artificial",
+      "summary": "O alívio trazido pelo regresso de Jensen Huang à Nvidia durou pouco e as tecnológicas voltaram a cair.",
+      "body": "Na quarta-feira, o índice sul-coreano Kospi caiu 6,2%, o Taiex de Taiwan 4,8% e o Nikkei japonês 2,8%. As maiores quedas foram nos fabricantes de chips ligados à IA: a Tokyo Electron e a Advantest perderam perto de 13%, a SK Hynix 11% e a Samsung quase 10%. Na véspera, Wall Street já tinha fechado no vermelho, com o Nasdaq a recuar 1,5%.",
+      "context": "Na segunda-feira, as ações da Nvidia tinham subido 31,5%, a maior subida num só dia da história da bolsa norte-americana, depois de Huang ser reconduzido como presidente executivo. Por trás da volatilidade está o receio de que as grandes tecnológicas não consigam sustentar investimentos de biliões de dólares em IA, parte deles financiados com dívida.",
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/25/asias-stock-markets-dive-as-doubts-to-swirl-over-ai-boom"
+        }
+      ]
+    },
+    {
+      "id": "n-20261126-despesa-verde",
+      "tema": "ambiente",
+      "edicao": "manhã",
+      "title": "Tribunal de Contas Europeu diz que a despesa 'verde' do PRR foi sobrestimada",
+      "summary": "Numa auditoria a sete países, incluindo Portugal, os auditores estimam 5,5 mil milhões de euros contados como verdes sem o serem.",
+      "body": "O Tribunal de Contas Europeu analisou 60 projetos financiados pelo Mecanismo de Recuperação e Resiliência em Portugal, Alemanha, Grécia, Espanha, França, Itália e Polónia, e encontrou exageros significativos em oito. Extrapolado, o desvio corresponde a cerca de 9,8% da despesa verde declarada por esses países. Os auditores criticam a Comissão por não verificar se as medidas incluem apenas projetos com impacto climático ou ambiental real, confiando nos Estados-membros.",
+      "context": "O PRR é a versão portuguesa do fundo europeu de recuperação pós-pandemia, em parte financiado com 'obrigações verdes' — dívida emitida pela UE cujo dinheiro só pode ir para projetos com benefício ambiental. Se esses projetos não forem verdadeiramente verdes, fica em causa a credibilidade destas obrigações junto dos investidores.",
+      "sources": [
+        {
+          "name": "ECO / Lusa",
+          "url": "https://eco.sapo.pt/2026/11/25/tribunal-de-contas-europeu-aponta-55-mil-milhoes-de-euros-em-despesas-verdes-sobrestimadas/"
+        }
+      ]
+    },
+    {
+      "id": "n-20261126-sporting",
+      "tema": "desporto",
+      "edicao": "manhã",
+      "title": "Sporting empata 2-2 com o Manchester United na Liga dos Campeões",
+      "summary": "Suárez e Bruno Fernandes marcaram dois golos cada num jogo de penáltis e golos anulados em Alvalade.",
+      "body": "Luis Suárez pôs o Sporting na frente de penálti perto da meia hora, Bruno Fernandes deu a volta ao resultado com dois golos logo no início da segunda parte (um deles de penálti) e Suárez empatou aos 80 minutos. O United viu ainda dois golos anulados por faltas, um deles sobre o guarda-redes Kaique. Com o empate, o Sporting soma 10 pontos em cinco jornadas, mais três do que a equipa inglesa.",
+      "context": "Na atual Liga dos Campeões, todas as equipas jogam numa única tabela de 36: os oito primeiros seguem diretamente para os oitavos de final e os classificados entre o 9.º e o 24.º lugar disputam um play-off. Bruno Fernandes jogou no Sporting antes de se mudar para o Manchester United, em 2020, e marcou ao antigo clube.",
       "sources": [
         {
           "name": "RTP",
-          "url": "https://www.rtp.pt/noticias/politica/parlamento-assinala-25-de-novembro-em-sessao-solene_e1781476"
-        },
+          "url": "https://www.rtp.pt/noticias/desporto/sporting-cp-manchester-united_e1781621"
+        }
+      ]
+    },
+    {
+      "id": "n-20261126-spacex",
+      "tema": "tecnologia",
+      "edicao": "manhã",
+      "title": "EUA autorizam a SpaceX a lançar até um milhão de centros de dados em órbita",
+      "summary": "O regulador norte-americano aprovou o projeto 'Starmind', pensado para dar resposta à procura de computação para IA.",
+      "body": "A Comissão Federal de Comunicações (FCC) autorizou a empresa de Elon Musk a colocar em órbita até um milhão de módulos de computação, que processariam dados para uso na Terra; o regulador diz ser a primeira aprovação deste tipo. Não é claro quantos serão realmente lançados: hoje há cerca de 17 mil satélites em órbita no total, pouco mais de 11 mil deles da rede Starlink. Concorrentes como a unidade de satélites da Amazon criticaram o plano por considerarem irrealista a escala pedida.",
+      "context": "Os centros de dados que treinam e correm modelos de IA consomem enormes quantidades de eletricidade e água para arrefecimento; a ideia de os pôr no espaço é aproveitar energia solar contínua e libertar recursos em terra. É comum as empresas pedirem licenças para muito mais satélites do que tencionam lançar, para manterem margem de manobra.",
+      "sources": [
         {
-          "name": "DN / Lusa",
-          "url": "https://www.dn.pt/pol%C3%ADtica/ps-acusa-aguiar-branco-de-confronto-institucional-com-seguro-cds-elogia-discurso-corajoso-e-determinado"
-        },
-        {
-          "name": "DN / Lusa",
-          "url": "https://www.dn.pt/pol%C3%ADtica/25-novembro-pedro-nuno-acusa-aguiar-branco-de-ser-incendirio-extremista-sem-nvel-para-o-cargo"
+          "name": "Al Jazeera / Reuters",
+          "url": "https://www.aljazeera.com/news/2026/11/25/us-grants-spacex-approval-for-1-million-space-data-centres"
         }
       ]
     }
