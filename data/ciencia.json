@@ -1,31 +1,4 @@
-{
-  "updated": "24 nov",
-  "items": [
-    {
-      "id": "c-peachy-m",
-      "journal": "JAMA",
-      "date": "23 nov 2026",
-      "title": "Agitação grave em adolescentes na urgência: olanzapina não foi melhor do que droperidol",
-      "pergunta": "Em crianças e adolescentes com agitação aguda grave na urgência, uma injeção intramuscular de olanzapina seda melhor do que uma de droperidol (dois antipsicóticos usados para acalmar rapidamente)?",
-      "desenho": "Ensaio aleatorizado (os doentes são sorteados para um dos fármacos), multicêntrico e aberto (médicos e doentes sabiam o que foi dado), de superioridade, com dose única ajustada ao peso: 5 mg abaixo de 40 kg, 10 mg a partir de 40 kg (PEAChY-M)",
-      "participantes": "348 doentes dos 9 aos 17 anos (idade média 14,9; 62% raparigas) em 10 urgências da Austrália, entre 2021 e 2026; 176 receberam olanzapina e 172 droperidol",
-      "resultado": "Sedação eficaz a 1 hora sem precisar de mais fármacos: 53% com olanzapina vs 62% com droperidol (diferença ajustada −8,3%; IC 95% −18,6% a 2,1%; p = 0,12), ou seja, a olanzapina não foi superior. Houve um efeito adverso grave (apneia, uma paragem da respiração) no grupo da olanzapina",
-      "limitacao": "Ensaio aberto e dimensionado para detetar uma diferença de 15 pontos; uma diferença menor entre os fármacos não fica excluída",
-      "importa": "É o primeiro ensaio grande a comparar os dois fármacos em jovens, e mostra que cerca de 4 em cada 10 não ficam sedados com uma dose de qualquer deles.",
-      "url": "https://jamanetwork.com/journals/jama/fullarticle/2857277"
-    },
-    {
-      "id": "c-doac-tce",
-      "journal": "JAMA Network Open",
-      "date": "23 nov 2026",
-      "title": "Traumatismo craniano: tomar anticoagulantes orais diretos não aumentou o risco de hemorragia na TAC",
-      "pergunta": "Adultos que tomam anticoagulantes orais diretos (DOAC: apixabano, rivaroxabano, edoxabano ou dabigatrano) têm mais hemorragia dentro do crânio depois de bater com a cabeça do que quem não toma anticoagulantes?",
-      "desenho": "Estudo de coorte retrospetivo (analisa registos do passado), cruzando dados de urgência, internamento e receitas dos cuidados de saúde primários de 2018 a 2022, com regressão logística multivariável para ajustar a idade e outras diferenças",
-      "participantes": "11 401 episódios de traumatismo craniano com TAC à cabeça em 10 625 adultos (mediana de idade 52 anos), em 3 urgências de Londres; 565 episódios (5%) em pessoas a tomar DOAC",
-      "resultado": "Hemorragia intracraniana na primeira TAC em 7,1% dos episódios com DOAC vs 7,7% sem anticoagulação (OR ajustado 0,93; IC 95% 0,70–1,21). Cirurgia neurológica em 0,4% nos dois grupos",
-      "limitacao": "Só inclui quem fez TAC e cerca de 28% dos episódios ficaram de fora por falta de ligação aos dados dos cuidados primários; idade e fragilidade podem ainda confundir a comparação",
-      "importa": "Põe em causa a regra de fazer TAC a todos os doentes com DOAC só por tomarem o fármaco depois de um traumatismo ligeiro, o que pode mudar as normas de imagem nos idosos.",
-      "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2856962"
-    }
-  ]
-}
+{"updated":"27 nov","items":[
+{"id":"c-teach","journal":"JAMA","date":"25 nov 2026","title":"Doentes ventilados: supervisão por telemedicina fez as UCI cumprir mais os testes diários para desligar o ventilador","pergunta":"Juntar uma equipa à distância (telemedicina) ao habitual relatório de desempenho aumenta o cumprimento dos testes coordenados de despertar e de respiração espontânea — interromper a sedação e ver se o doente respira sozinho — e melhora os resultados dos doentes?","desenho":"Ensaio aleatorizado por clusters (sorteiam-se hospitais, não doentes), que avaliou ao mesmo tempo a eficácia e a implementação, em 12 unidades de cuidados intensivos da Intermountain Health (Utah e Idaho, EUA), entre 2022 e 2025.","participantes":"Adultos (16 anos ou mais) intubados e ventilados mecanicamente: 4544 nos hospitais com telemedicina e 6438 nos hospitais de controlo durante o período de intervenção.","resultado":"Os testes foram feitos em 90,3% dos dias nos hospitais com telemedicina vs 77,6% no controlo (odds ratio 2,87; diferença absoluta ajustada de 11,4 pontos, IC 95% 8,8–14,3). Os dias vivos e sem ventilador tiveram mediana de 25 em ambos os grupos, mas com distribuição favorável à telemedicina (odds ratio 1,21; IC 95% 1,01–1,45), cerca de 1 dia a mais em média.","limitacao":"Decorreu num único sistema hospitalar norte-americano que já tinha telemedicina montada, e o ganho para os doentes é pequeno, com um intervalo de confiança muito perto de não haver efeito.","importa":"Estes testes reduzem o tempo de ventilação mas ficam muitas vezes por fazer, e o estudo mostra uma forma prática de os pôr em rotina.","url":"https://jamanetwork.com/journals/jama/fullarticle/2857376"},
+{"id":"c-dpoc-tac","journal":"JAMA Internal Medicine","date":"23 nov 2026","title":"DPOC: juntar TAC e sintomas à espirometria encontra doentes que hoje ficam sem diagnóstico","pergunta":"Uma definição de DPOC que junta lesões vistas na TAC e sintomas ao critério clássico GOLD — obstrução das vias aéreas medida só na espirometria — muda quantas pessoas são diagnosticadas e quem tem pior prognóstico?","desenho":"Estudo de coorte populacional (SCAPIS) em seis hospitais universitários da Suécia, com recrutamento entre 2013 e 2018 e seguimento da mortalidade até setembro de 2024; é observacional, não um ensaio.","participantes":"29 281 adultos dos 50 aos 64 anos escolhidos ao acaso da população (51,3% mulheres, idade média 57,5 anos), todos com espirometria e TAC ao tórax.","resultado":"4,6% cumpriam a definição multidimensional. Entre os 6016 com sintomas, a prevalência foi de 15,1% vs 14,2% com o critério GOLD, e 30,9% dos casos pela nova definição não seriam diagnosticados pelo GOLD. Houve 634 mortes; nos sintomáticos, o risco de morrer foi 2,58 vezes maior nos que só cumpriam a nova definição (IC 95% 1,66–4,01) e não aumentou nos que só cumpriam o GOLD (hazard ratio 0,94; IC 95% 0,44–2,00).","limitacao":"Sendo observacional e numa população sueca de meia-idade, não prova que diagnosticar e tratar estes doentes mais cedo mude o prognóstico, e alguns subgrupos têm poucos casos (intervalos largos).","importa":"Sugere que uma espirometria normal não exclui doença pulmonar relevante em quem tem sintomas e alterações na TAC.","url":"https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2856745"}
+]}
